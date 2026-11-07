@@ -1,0 +1,4436 @@
+{
+  "dataset": "t00.tar.gz",
+  "total_traces": 1048576,
+  "aes_reference_checks_passed": true,
+  "aes_pairs_checked": 32,
+  "timing_quantiles_cycles": {
+    "0": 6242.0,
+    "0.01": 6943.0,
+    "0.5": 7720.0,
+    "0.9": 15121.0,
+    "0.95": 16621.0,
+    "0.99": 17120.0,
+    "1": 114356.0
+  },
+  "seed": 622,
+  "experiments": [
+    {
+      "method": "simple",
+      "offset": null,
+      "preprocessing": {
+        "selected_traces": 1048576,
+        "total_traces": 1048576,
+        "upper_quantile": 1.0,
+        "upper_threshold_cycles": 114356.0,
+        "transform": "raw"
+      },
+      "summary": {
+        "pairs_tested": 12,
+        "hypotheses_per_pair": 256,
+        "mean_correct_pair_rank": 94.41666666666667,
+        "median_correct_pair_rank": 64.5,
+        "random_expected_mean_rank": 128.5,
+        "mean_correct_pair_percentile": 0.6336601307189543,
+        "median_correct_pair_score": 0.7722083509873681,
+        "positive_correct_pair_scores": 8,
+        "top1_pairs": 0,
+        "top10_pairs": 0,
+        "note": "Pair ranks are diagnostic; they are not the assignment's 16 key-byte ranks."
+      },
+      "pair_measurements": [
+        {
+          "i": 0,
+          "j": 1,
+          "rank": 80,
+          "correct_score": 0.49915600912642555
+        },
+        {
+          "i": 0,
+          "j": 2,
+          "rank": 29,
+          "correct_score": 1.249206433989032
+        },
+        {
+          "i": 0,
+          "j": 7,
+          "rank": 44,
+          "correct_score": 1.0304513927080325
+        },
+        {
+          "i": 1,
+          "j": 7,
+          "rank": 30,
+          "correct_score": 1.1867025611739235
+        },
+        {
+          "i": 1,
+          "j": 14,
+          "rank": 158,
+          "correct_score": -0.2912032450469487
+        },
+        {
+          "i": 2,
+          "j": 6,
+          "rank": 22,
+          "correct_score": 1.2955312236308656
+        },
+        {
+          "i": 2,
+          "j": 13,
+          "rank": 194,
+          "correct_score": -0.69710263691067
+        },
+        {
+          "i": 2,
+          "j": 15,
+          "rank": 225,
+          "correct_score": -1.1404857401104376
+        },
+        {
+          "i": 3,
+          "j": 7,
+          "rank": 55,
+          "correct_score": 0.9356613821156888
+        },
+        {
+          "i": 3,
+          "j": 13,
+          "rank": 23,
+          "correct_score": 1.4473732274451883
+        },
+        {
+          "i": 10,
+          "j": 13,
+          "rank": 199,
+          "correct_score": -0.6169365357920541
+        },
+        {
+          "i": 11,
+          "j": 15,
+          "rank": 74,
+          "correct_score": 0.6087553198590473
+        }
+      ]
+    },
+    {
+      "method": "expanded",
+      "offset": 0,
+      "preprocessing": {
+        "selected_traces": 1048576,
+        "total_traces": 1048576,
+        "upper_quantile": 1.0,
+        "upper_threshold_cycles": 114356.0,
+        "transform": "raw"
+      },
+      "summary": {
+        "pairs_tested": 12,
+        "hypotheses_per_pair": 65536,
+        "mean_correct_pair_rank": 3858.75,
+        "median_correct_pair_rank": 1476.5,
+        "random_expected_mean_rank": 32768.5,
+        "mean_correct_pair_percentile": 0.9411345082780195,
+        "median_correct_pair_score": 2.05278818164802,
+        "positive_correct_pair_scores": 12,
+        "top1_pairs": 0,
+        "top10_pairs": 0,
+        "note": "Pair ranks are diagnostic; they are not the assignment's 16 key-byte ranks."
+      },
+      "pair_measurements": [
+        {
+          "i": 0,
+          "j": 1,
+          "rank": 1237,
+          "correct_score": 2.150081106611913
+        },
+        {
+          "i": 0,
+          "j": 2,
+          "rank": 1716,
+          "correct_score": 1.9554952566841262
+        },
+        {
+          "i": 0,
+          "j": 7,
+          "rank": 1056,
+          "correct_score": 2.158459159633887
+        },
+        {
+          "i": 1,
+          "j": 7,
+          "rank": 611,
+          "correct_score": 2.395605331023278
+        },
+        {
+          "i": 1,
+          "j": 14,
+          "rank": 17877,
+          "correct_score": 0.6024475090363358
+        },
+        {
+          "i": 2,
+          "j": 6,
+          "rank": 4173,
+          "correct_score": 1.5394041072197633
+        },
+        {
+          "i": 2,
+          "j": 13,
+          "rank": 1952,
+          "correct_score": 1.9292681944546912
+        },
+        {
+          "i": 2,
+          "j": 15,
+          "rank": 13375,
+          "correct_score": 0.8401055496018136
+        },
+        {
+          "i": 3,
+          "j": 7,
+          "rank": 90,
+          "correct_score": 3.03059377501068
+        },
+        {
+          "i": 3,
+          "j": 13,
+          "rank": 332,
+          "correct_score": 2.6385497710927805
+        },
+        {
+          "i": 10,
+          "j": 13,
+          "rank": 3770,
+          "correct_score": 1.5962083264589795
+        },
+        {
+          "i": 11,
+          "j": 15,
+          "rank": 116,
+          "correct_score": 3.005870999194265
+        }
+      ]
+    },
+    {
+      "method": "expanded",
+      "offset": 4,
+      "preprocessing": {
+        "selected_traces": 1048576,
+        "total_traces": 1048576,
+        "upper_quantile": 1.0,
+        "upper_threshold_cycles": 114356.0,
+        "transform": "raw"
+      },
+      "summary": {
+        "pairs_tested": 12,
+        "hypotheses_per_pair": 65536,
+        "mean_correct_pair_rank": 9874.333333333334,
+        "median_correct_pair_rank": 5064.5,
+        "random_expected_mean_rank": 32768.5,
+        "mean_correct_pair_percentile": 0.8493425904732841,
+        "median_correct_pair_score": 1.4357682240239316,
+        "positive_correct_pair_scores": 11,
+        "top1_pairs": 0,
+        "top10_pairs": 0,
+        "note": "Pair ranks are diagnostic; they are not the assignment's 16 key-byte ranks."
+      },
+      "pair_measurements": [
+        {
+          "i": 0,
+          "j": 1,
+          "rank": 4243,
+          "correct_score": 1.5517551712542703
+        },
+        {
+          "i": 0,
+          "j": 2,
+          "rank": 6438,
+          "correct_score": 1.3048045610711418
+        },
+        {
+          "i": 0,
+          "j": 7,
+          "rank": 4301,
+          "correct_score": 1.5177437484904817
+        },
+        {
+          "i": 1,
+          "j": 7,
+          "rank": 3346,
+          "correct_score": 1.6608743851833874
+        },
+        {
+          "i": 1,
+          "j": 14,
+          "rank": 19522,
+          "correct_score": 0.5345947201378191
+        },
+        {
+          "i": 2,
+          "j": 6,
+          "rank": 5828,
+          "correct_score": 1.3537926995573815
+        },
+        {
+          "i": 2,
+          "j": 13,
+          "rank": 25939,
+          "correct_score": 0.27218666372429506
+        },
+        {
+          "i": 2,
+          "j": 15,
+          "rank": 34388,
+          "correct_score": -0.05715545004390034
+        },
+        {
+          "i": 3,
+          "j": 7,
+          "rank": 92,
+          "correct_score": 3.0401748647515694
+        },
+        {
+          "i": 3,
+          "j": 13,
+          "rank": 1226,
+          "correct_score": 2.1158392774982286
+        },
+        {
+          "i": 10,
+          "j": 13,
+          "rank": 12195,
+          "correct_score": 0.9041764925676196
+        },
+        {
+          "i": 11,
+          "j": 15,
+          "rank": 974,
+          "correct_score": 2.2300566640727357
+        }
+      ]
+    },
+    {
+      "method": "expanded",
+      "offset": 8,
+      "preprocessing": {
+        "selected_traces": 1048576,
+        "total_traces": 1048576,
+        "upper_quantile": 1.0,
+        "upper_threshold_cycles": 114356.0,
+        "transform": "raw"
+      },
+      "summary": {
+        "pairs_tested": 12,
+        "hypotheses_per_pair": 65536,
+        "mean_correct_pair_rank": 13964.0,
+        "median_correct_pair_rank": 5992.0,
+        "random_expected_mean_rank": 32768.5,
+        "mean_correct_pair_percentile": 0.7869382772564278,
+        "median_correct_pair_score": 1.349509927840597,
+        "positive_correct_pair_scores": 11,
+        "top1_pairs": 0,
+        "top10_pairs": 0,
+        "note": "Pair ranks are diagnostic; they are not the assignment's 16 key-byte ranks."
+      },
+      "pair_measurements": [
+        {
+          "i": 0,
+          "j": 1,
+          "rank": 4058,
+          "correct_score": 1.5829669094734802
+        },
+        {
+          "i": 0,
+          "j": 2,
+          "rank": 5699,
+          "correct_score": 1.3797998868077832
+        },
+        {
+          "i": 0,
+          "j": 7,
+          "rank": 5016,
+          "correct_score": 1.441449282063318
+        },
+        {
+          "i": 1,
+          "j": 7,
+          "rank": 13391,
+          "correct_score": 0.8412718537300735
+        },
+        {
+          "i": 1,
+          "j": 14,
+          "rank": 26610,
+          "correct_score": 0.24544684344919582
+        },
+        {
+          "i": 2,
+          "j": 6,
+          "rank": 6285,
+          "correct_score": 1.3192199688734112
+        },
+        {
+          "i": 2,
+          "j": 13,
+          "rank": 8065,
+          "correct_score": 1.1711036672926471
+        },
+        {
+          "i": 2,
+          "j": 15,
+          "rank": 64083,
+          "correct_score": -2.002634644508901
+        },
+        {
+          "i": 3,
+          "j": 7,
+          "rank": 550,
+          "correct_score": 2.413165364633936
+        },
+        {
+          "i": 3,
+          "j": 13,
+          "rank": 1746,
+          "correct_score": 1.972835107142875
+        },
+        {
+          "i": 10,
+          "j": 13,
+          "rank": 30719,
+          "correct_score": 0.08443704779778873
+        },
+        {
+          "i": 11,
+          "j": 15,
+          "rank": 1346,
+          "correct_score": 2.100039119632422
+        }
+      ]
+    },
+    {
+      "method": "expanded",
+      "offset": 12,
+      "preprocessing": {
+        "selected_traces": 1048576,
+        "total_traces": 1048576,
+        "upper_quantile": 1.0,
+        "upper_threshold_cycles": 114356.0,
+        "transform": "raw"
+      },
+      "summary": {
+        "pairs_tested": 12,
+        "hypotheses_per_pair": 65536,
+        "mean_correct_pair_rank": 18079.833333333332,
+        "median_correct_pair_rank": 7320.5,
+        "random_expected_mean_rank": 32768.5,
+        "mean_correct_pair_percentile": 0.7241346862999415,
+        "median_correct_pair_score": 1.2448885407230534,
+        "positive_correct_pair_scores": 9,
+        "top1_pairs": 0,
+        "top10_pairs": 0,
+        "note": "Pair ranks are diagnostic; they are not the assignment's 16 key-byte ranks."
+      },
+      "pair_measurements": [
+        {
+          "i": 0,
+          "j": 1,
+          "rank": 2789,
+          "correct_score": 1.7656001511403678
+        },
+        {
+          "i": 0,
+          "j": 2,
+          "rank": 16669,
+          "correct_score": 0.6678647362441247
+        },
+        {
+          "i": 0,
+          "j": 7,
+          "rank": 4283,
+          "correct_score": 1.524285251965348
+        },
+        {
+          "i": 1,
+          "j": 7,
+          "rank": 10921,
+          "correct_score": 0.9814777605497871
+        },
+        {
+          "i": 1,
+          "j": 14,
+          "rank": 60660,
+          "correct_score": -1.4135935578493561
+        },
+        {
+          "i": 2,
+          "j": 6,
+          "rank": 5287,
+          "correct_score": 1.4121789981627761
+        },
+        {
+          "i": 2,
+          "j": 13,
+          "rank": 9354,
+          "correct_score": 1.0775980832833305
+        },
+        {
+          "i": 2,
+          "j": 15,
+          "rank": 55943,
+          "correct_score": -1.0452541990721707
+        },
+        {
+          "i": 3,
+          "j": 7,
+          "rank": 491,
+          "correct_score": 2.456597075794276
+        },
+        {
+          "i": 3,
+          "j": 13,
+          "rank": 2706,
+          "correct_score": 1.7886250898787122
+        },
+        {
+          "i": 10,
+          "j": 13,
+          "rank": 44646,
+          "correct_score": -0.46838457693978286
+        },
+        {
+          "i": 11,
+          "j": 15,
+          "rank": 3209,
+          "correct_score": 1.7121017847911078
+        }
+      ]
+    },
+    {
+      "method": "expanded",
+      "offset": 16,
+      "preprocessing": {
+        "selected_traces": 1048576,
+        "total_traces": 1048576,
+        "upper_quantile": 1.0,
+        "upper_threshold_cycles": 114356.0,
+        "transform": "raw"
+      },
+      "summary": {
+        "pairs_tested": 12,
+        "hypotheses_per_pair": 65536,
+        "mean_correct_pair_rank": 15641.583333333334,
+        "median_correct_pair_rank": 5348.5,
+        "random_expected_mean_rank": 32768.5,
+        "mean_correct_pair_percentile": 0.7613399964395615,
+        "median_correct_pair_score": 1.4066187595614439,
+        "positive_correct_pair_scores": 10,
+        "top1_pairs": 0,
+        "top10_pairs": 0,
+        "note": "Pair ranks are diagnostic; they are not the assignment's 16 key-byte ranks."
+      },
+      "pair_measurements": [
+        {
+          "i": 0,
+          "j": 1,
+          "rank": 4819,
+          "correct_score": 1.495060955453182
+        },
+        {
+          "i": 0,
+          "j": 2,
+          "rank": 5878,
+          "correct_score": 1.3490499738128272
+        },
+        {
+          "i": 0,
+          "j": 7,
+          "rank": 3618,
+          "correct_score": 1.628867326248197
+        },
+        {
+          "i": 1,
+          "j": 7,
+          "rank": 4115,
+          "correct_score": 1.5452104505568467
+        },
+        {
+          "i": 1,
+          "j": 14,
+          "rank": 56830,
+          "correct_score": -1.0958956021469781
+        },
+        {
+          "i": 2,
+          "j": 6,
+          "rank": 4764,
+          "correct_score": 1.4641875453100606
+        },
+        {
+          "i": 2,
+          "j": 13,
+          "rank": 17417,
+          "correct_score": 0.6345026635840165
+        },
+        {
+          "i": 2,
+          "j": 15,
+          "rank": 54638,
+          "correct_score": -0.9591981238070963
+        },
+        {
+          "i": 3,
+          "j": 7,
+          "rank": 891,
+          "correct_score": 2.2309393029700146
+        },
+        {
+          "i": 3,
+          "j": 13,
+          "rank": 9982,
+          "correct_score": 1.0536754337730105
+        },
+        {
+          "i": 10,
+          "j": 13,
+          "rank": 24717,
+          "correct_score": 0.31567510846802393
+        },
+        {
+          "i": 11,
+          "j": 15,
+          "rank": 30,
+          "correct_score": 3.414778443974194
+        }
+      ]
+    },
+    {
+      "method": "expanded",
+      "offset": 20,
+      "preprocessing": {
+        "selected_traces": 1048576,
+        "total_traces": 1048576,
+        "upper_quantile": 1.0,
+        "upper_threshold_cycles": 114356.0,
+        "transform": "raw"
+      },
+      "summary": {
+        "pairs_tested": 12,
+        "hypotheses_per_pair": 65536,
+        "mean_correct_pair_rank": 16726.083333333332,
+        "median_correct_pair_rank": 11319.0,
+        "random_expected_mean_rank": 32768.5,
+        "mean_correct_pair_percentile": 0.7447915871925943,
+        "median_correct_pair_score": 0.9561911657640418,
+        "positive_correct_pair_scores": 10,
+        "top1_pairs": 0,
+        "top10_pairs": 1,
+        "note": "Pair ranks are diagnostic; they are not the assignment's 16 key-byte ranks."
+      },
+      "pair_measurements": [
+        {
+          "i": 0,
+          "j": 1,
+          "rank": 2435,
+          "correct_score": 1.8405665509436857
+        },
+        {
+          "i": 0,
+          "j": 2,
+          "rank": 20537,
+          "correct_score": 0.48939249365208926
+        },
+        {
+          "i": 0,
+          "j": 7,
+          "rank": 15349,
+          "correct_score": 0.7271618472580426
+        },
+        {
+          "i": 1,
+          "j": 7,
+          "rank": 10262,
+          "correct_score": 1.0126209554427472
+        },
+        {
+          "i": 1,
+          "j": 14,
+          "rank": 26681,
+          "correct_score": 0.2389252988490492
+        },
+        {
+          "i": 2,
+          "j": 6,
+          "rank": 10883,
+          "correct_score": 0.9746352073806301
+        },
+        {
+          "i": 2,
+          "j": 13,
+          "rank": 6483,
+          "correct_score": 1.3181345390898955
+        },
+        {
+          "i": 2,
+          "j": 15,
+          "rank": 48473,
+          "correct_score": -0.6372451224517336
+        },
+        {
+          "i": 3,
+          "j": 7,
+          "rank": 6517,
+          "correct_score": 1.2955421110784118
+        },
+        {
+          "i": 3,
+          "j": 13,
+          "rank": 11755,
+          "correct_score": 0.9377471241474535
+        },
+        {
+          "i": 10,
+          "j": 13,
+          "rank": 41335,
+          "correct_score": -0.3261574952389012
+        },
+        {
+          "i": 11,
+          "j": 15,
+          "rank": 3,
+          "correct_score": 4.2287954387427
+        }
+      ]
+    },
+    {
+      "method": "expanded",
+      "offset": 24,
+      "preprocessing": {
+        "selected_traces": 1048576,
+        "total_traces": 1048576,
+        "upper_quantile": 1.0,
+        "upper_threshold_cycles": 114356.0,
+        "transform": "raw"
+      },
+      "summary": {
+        "pairs_tested": 12,
+        "hypotheses_per_pair": 65536,
+        "mean_correct_pair_rank": 10459.416666666666,
+        "median_correct_pair_rank": 7138.0,
+        "random_expected_mean_rank": 32768.5,
+        "mean_correct_pair_percentile": 0.8404147910785585,
+        "median_correct_pair_score": 1.2567686759804064,
+        "positive_correct_pair_scores": 12,
+        "top1_pairs": 0,
+        "top10_pairs": 1,
+        "note": "Pair ranks are diagnostic; they are not the assignment's 16 key-byte ranks."
+      },
+      "pair_measurements": [
+        {
+          "i": 0,
+          "j": 1,
+          "rank": 1094,
+          "correct_score": 2.1983444831916605
+        },
+        {
+          "i": 0,
+          "j": 2,
+          "rank": 2252,
+          "correct_score": 1.8243383364186552
+        },
+        {
+          "i": 0,
+          "j": 7,
+          "rank": 5472,
+          "correct_score": 1.3955470129731504
+        },
+        {
+          "i": 1,
+          "j": 7,
+          "rank": 7160,
+          "correct_score": 1.2472213812944046
+        },
+        {
+          "i": 1,
+          "j": 14,
+          "rank": 26376,
+          "correct_score": 0.24888501714372605
+        },
+        {
+          "i": 2,
+          "j": 6,
+          "rank": 18540,
+          "correct_score": 0.5720459181045038
+        },
+        {
+          "i": 2,
+          "j": 13,
+          "rank": 20018,
+          "correct_score": 0.518477039445201
+        },
+        {
+          "i": 2,
+          "j": 15,
+          "rank": 13283,
+          "correct_score": 0.8479298635413562
+        },
+        {
+          "i": 3,
+          "j": 7,
+          "rank": 4231,
+          "correct_score": 1.529619376791309
+        },
+        {
+          "i": 3,
+          "j": 13,
+          "rank": 7116,
+          "correct_score": 1.266315970666408
+        },
+        {
+          "i": 10,
+          "j": 13,
+          "rank": 19966,
+          "correct_score": 0.520879024440393
+        },
+        {
+          "i": 11,
+          "j": 15,
+          "rank": 5,
+          "correct_score": 3.888809556864662
+        }
+      ]
+    },
+    {
+      "method": "expanded",
+      "offset": 28,
+      "preprocessing": {
+        "selected_traces": 1048576,
+        "total_traces": 1048576,
+        "upper_quantile": 1.0,
+        "upper_threshold_cycles": 114356.0,
+        "transform": "raw"
+      },
+      "summary": {
+        "pairs_tested": 12,
+        "hypotheses_per_pair": 65536,
+        "mean_correct_pair_rank": 9478.416666666666,
+        "median_correct_pair_rank": 5544.5,
+        "random_expected_mean_rank": 32768.5,
+        "mean_correct_pair_percentile": 0.8553838915592178,
+        "median_correct_pair_score": 1.3891089740367843,
+        "positive_correct_pair_scores": 11,
+        "top1_pairs": 0,
+        "top10_pairs": 0,
+        "note": "Pair ranks are diagnostic; they are not the assignment's 16 key-byte ranks."
+      },
+      "pair_measurements": [
+        {
+          "i": 0,
+          "j": 1,
+          "rank": 1798,
+          "correct_score": 1.966985172813718
+        },
+        {
+          "i": 0,
+          "j": 2,
+          "rank": 2976,
+          "correct_score": 1.7050367111065916
+        },
+        {
+          "i": 0,
+          "j": 7,
+          "rank": 5604,
+          "correct_score": 1.378808258800311
+        },
+        {
+          "i": 1,
+          "j": 7,
+          "rank": 7749,
+          "correct_score": 1.1942664902990983
+        },
+        {
+          "i": 1,
+          "j": 14,
+          "rank": 36807,
+          "correct_score": -0.15081985071362508
+        },
+        {
+          "i": 2,
+          "j": 6,
+          "rank": 7303,
+          "correct_score": 1.2226728878987199
+        },
+        {
+          "i": 2,
+          "j": 13,
+          "rank": 4699,
+          "correct_score": 1.503073789115083
+        },
+        {
+          "i": 2,
+          "j": 15,
+          "rank": 28020,
+          "correct_score": 0.19494924924386553
+        },
+        {
+          "i": 3,
+          "j": 7,
+          "rank": 5301,
+          "correct_score": 1.399409689273258
+        },
+        {
+          "i": 3,
+          "j": 13,
+          "rank": 5485,
+          "correct_score": 1.4068935894415955
+        },
+        {
+          "i": 10,
+          "j": 13,
+          "rank": 7984,
+          "correct_score": 1.17141387858475
+        },
+        {
+          "i": 11,
+          "j": 15,
+          "rank": 15,
+          "correct_score": 3.649125132039283
+        }
+      ]
+    },
+    {
+      "method": "simple",
+      "offset": null,
+      "preprocessing": {
+        "selected_traces": 1038129,
+        "total_traces": 1048576,
+        "upper_quantile": 0.99,
+        "upper_threshold_cycles": 17120.0,
+        "transform": "raw"
+      },
+      "summary": {
+        "pairs_tested": 12,
+        "hypotheses_per_pair": 256,
+        "mean_correct_pair_rank": 92.75,
+        "median_correct_pair_rank": 63.0,
+        "random_expected_mean_rank": 128.5,
+        "mean_correct_pair_percentile": 0.6401960784313726,
+        "median_correct_pair_score": 0.7551365683311637,
+        "positive_correct_pair_scores": 8,
+        "top1_pairs": 0,
+        "top10_pairs": 1,
+        "note": "Pair ranks are diagnostic; they are not the assignment's 16 key-byte ranks."
+      },
+      "pair_measurements": [
+        {
+          "i": 0,
+          "j": 1,
+          "rank": 32,
+          "correct_score": 1.2317492664899647
+        },
+        {
+          "i": 0,
+          "j": 2,
+          "rank": 7,
+          "correct_score": 2.0156375819800627
+        },
+        {
+          "i": 0,
+          "j": 7,
+          "rank": 25,
+          "correct_score": 1.2239629121423832
+        },
+        {
+          "i": 1,
+          "j": 7,
+          "rank": 16,
+          "correct_score": 1.6394275604043937
+        },
+        {
+          "i": 1,
+          "j": 14,
+          "rank": 94,
+          "correct_score": 0.28631022451994437
+        },
+        {
+          "i": 2,
+          "j": 6,
+          "rank": 19,
+          "correct_score": 1.3271349554176222
+        },
+        {
+          "i": 2,
+          "j": 13,
+          "rank": 197,
+          "correct_score": -0.7665962647935076
+        },
+        {
+          "i": 2,
+          "j": 15,
+          "rank": 247,
+          "correct_score": -1.8497502543392275
+        },
+        {
+          "i": 3,
+          "j": 7,
+          "rank": 131,
+          "correct_score": 0.024008521841787957
+        },
+        {
+          "i": 3,
+          "j": 13,
+          "rank": 32,
+          "correct_score": 1.2749852897605187
+        },
+        {
+          "i": 10,
+          "j": 13,
+          "rank": 179,
+          "correct_score": -0.5094437882756112
+        },
+        {
+          "i": 11,
+          "j": 15,
+          "rank": 134,
+          "correct_score": -0.042026191160358065
+        }
+      ]
+    },
+    {
+      "method": "expanded",
+      "offset": 0,
+      "preprocessing": {
+        "selected_traces": 1038129,
+        "total_traces": 1048576,
+        "upper_quantile": 0.99,
+        "upper_threshold_cycles": 17120.0,
+        "transform": "raw"
+      },
+      "summary": {
+        "pairs_tested": 12,
+        "hypotheses_per_pair": 65536,
+        "mean_correct_pair_rank": 6582.666666666667,
+        "median_correct_pair_rank": 999.5,
+        "random_expected_mean_rank": 32768.5,
+        "mean_correct_pair_percentile": 0.8995702042165764,
+        "median_correct_pair_score": 2.175947278872343,
+        "positive_correct_pair_scores": 11,
+        "top1_pairs": 0,
+        "top10_pairs": 1,
+        "note": "Pair ranks are diagnostic; they are not the assignment's 16 key-byte ranks."
+      },
+      "pair_measurements": [
+        {
+          "i": 0,
+          "j": 1,
+          "rank": 23,
+          "correct_score": 3.467331631988089
+        },
+        {
+          "i": 0,
+          "j": 2,
+          "rank": 1706,
+          "correct_score": 1.924368351579161
+        },
+        {
+          "i": 0,
+          "j": 7,
+          "rank": 225,
+          "correct_score": 2.697470433063298
+        },
+        {
+          "i": 1,
+          "j": 7,
+          "rank": 5,
+          "correct_score": 3.854472104757847
+        },
+        {
+          "i": 1,
+          "j": 14,
+          "rank": 30529,
+          "correct_score": 0.08591572450763012
+        },
+        {
+          "i": 2,
+          "j": 6,
+          "rank": 699,
+          "correct_score": 2.2650672246158807
+        },
+        {
+          "i": 2,
+          "j": 13,
+          "rank": 1565,
+          "correct_score": 1.9787566732983541
+        },
+        {
+          "i": 2,
+          "j": 15,
+          "rank": 39778,
+          "correct_score": -0.2687328002674178
+        },
+        {
+          "i": 3,
+          "j": 7,
+          "rank": 273,
+          "correct_score": 2.598198641029219
+        },
+        {
+          "i": 3,
+          "j": 13,
+          "rank": 826,
+          "correct_score": 2.2469515604502974
+        },
+        {
+          "i": 10,
+          "j": 13,
+          "rank": 2190,
+          "correct_score": 1.834554878395489
+        },
+        {
+          "i": 11,
+          "j": 15,
+          "rank": 1173,
+          "correct_score": 2.1049429972943887
+        }
+      ]
+    },
+    {
+      "method": "expanded",
+      "offset": 4,
+      "preprocessing": {
+        "selected_traces": 1038129,
+        "total_traces": 1048576,
+        "upper_quantile": 0.99,
+        "upper_threshold_cycles": 17120.0,
+        "transform": "raw"
+      },
+      "summary": {
+        "pairs_tested": 12,
+        "hypotheses_per_pair": 65536,
+        "mean_correct_pair_rank": 11152.333333333334,
+        "median_correct_pair_rank": 2341.5,
+        "random_expected_mean_rank": 32768.5,
+        "mean_correct_pair_percentile": 0.8298415604893061,
+        "median_correct_pair_score": 1.8218130706679911,
+        "positive_correct_pair_scores": 10,
+        "top1_pairs": 0,
+        "top10_pairs": 0,
+        "note": "Pair ranks are diagnostic; they are not the assignment's 16 key-byte ranks."
+      },
+      "pair_measurements": [
+        {
+          "i": 0,
+          "j": 1,
+          "rank": 53,
+          "correct_score": 3.1548491219040917
+        },
+        {
+          "i": 0,
+          "j": 2,
+          "rank": 3050,
+          "correct_score": 1.6741443710844774
+        },
+        {
+          "i": 0,
+          "j": 7,
+          "rank": 630,
+          "correct_score": 2.3497239483632435
+        },
+        {
+          "i": 1,
+          "j": 7,
+          "rank": 478,
+          "correct_score": 2.4656450937401932
+        },
+        {
+          "i": 1,
+          "j": 14,
+          "rank": 37023,
+          "correct_score": -0.15857202412729854
+        },
+        {
+          "i": 2,
+          "j": 6,
+          "rank": 358,
+          "correct_score": 2.5353516792287722
+        },
+        {
+          "i": 2,
+          "j": 13,
+          "rank": 13298,
+          "correct_score": 0.8337978304479612
+        },
+        {
+          "i": 2,
+          "j": 15,
+          "rank": 55125,
+          "correct_score": -1.001016766085377
+        },
+        {
+          "i": 3,
+          "j": 7,
+          "rank": 147,
+          "correct_score": 2.771201459885862
+        },
+        {
+          "i": 3,
+          "j": 13,
+          "rank": 1633,
+          "correct_score": 1.9694817702515046
+        },
+        {
+          "i": 10,
+          "j": 13,
+          "rank": 12667,
+          "correct_score": 0.8696243962605026
+        },
+        {
+          "i": 11,
+          "j": 15,
+          "rank": 9366,
+          "correct_score": 1.0681760368210191
+        }
+      ]
+    },
+    {
+      "method": "expanded",
+      "offset": 8,
+      "preprocessing": {
+        "selected_traces": 1038129,
+        "total_traces": 1048576,
+        "upper_quantile": 0.99,
+        "upper_threshold_cycles": 17120.0,
+        "transform": "raw"
+      },
+      "summary": {
+        "pairs_tested": 12,
+        "hypotheses_per_pair": 65536,
+        "mean_correct_pair_rank": 13869.25,
+        "median_correct_pair_rank": 3954.0,
+        "random_expected_mean_rank": 32768.5,
+        "mean_correct_pair_percentile": 0.7883840695811398,
+        "median_correct_pair_score": 1.5521213293563316,
+        "positive_correct_pair_scores": 10,
+        "top1_pairs": 0,
+        "top10_pairs": 0,
+        "note": "Pair ranks are diagnostic; they are not the assignment's 16 key-byte ranks."
+      },
+      "pair_measurements": [
+        {
+          "i": 0,
+          "j": 1,
+          "rank": 124,
+          "correct_score": 2.9275035555066027
+        },
+        {
+          "i": 0,
+          "j": 2,
+          "rank": 2194,
+          "correct_score": 1.838001238022807
+        },
+        {
+          "i": 0,
+          "j": 7,
+          "rank": 3433,
+          "correct_score": 1.6094497917143777
+        },
+        {
+          "i": 1,
+          "j": 7,
+          "rank": 2902,
+          "correct_score": 1.7216468579721853
+        },
+        {
+          "i": 1,
+          "j": 14,
+          "rank": 42565,
+          "correct_score": -0.3775717730468387
+        },
+        {
+          "i": 2,
+          "j": 6,
+          "rank": 1948,
+          "correct_score": 1.8887748736369263
+        },
+        {
+          "i": 2,
+          "j": 13,
+          "rank": 4475,
+          "correct_score": 1.4785090803367016
+        },
+        {
+          "i": 2,
+          "j": 15,
+          "rank": 64967,
+          "correct_score": -2.3804292761286483
+        },
+        {
+          "i": 3,
+          "j": 7,
+          "rank": 3245,
+          "correct_score": 1.6219616966781523
+        },
+        {
+          "i": 3,
+          "j": 13,
+          "rank": 4531,
+          "correct_score": 1.4947928669982857
+        },
+        {
+          "i": 10,
+          "j": 13,
+          "rank": 26975,
+          "correct_score": 0.22176324219790078
+        },
+        {
+          "i": 11,
+          "j": 15,
+          "rank": 9072,
+          "correct_score": 1.0848049220661342
+        }
+      ]
+    },
+    {
+      "method": "expanded",
+      "offset": 12,
+      "preprocessing": {
+        "selected_traces": 1038129,
+        "total_traces": 1048576,
+        "upper_quantile": 0.99,
+        "upper_threshold_cycles": 17120.0,
+        "transform": "raw"
+      },
+      "summary": {
+        "pairs_tested": 12,
+        "hypotheses_per_pair": 65536,
+        "mean_correct_pair_rank": 16729.416666666668,
+        "median_correct_pair_rank": 6911.0,
+        "random_expected_mean_rank": 32768.5,
+        "mean_correct_pair_percentile": 0.744740723786272,
+        "median_correct_pair_score": 1.2569552639032806,
+        "positive_correct_pair_scores": 10,
+        "top1_pairs": 0,
+        "top10_pairs": 0,
+        "note": "Pair ranks are diagnostic; they are not the assignment's 16 key-byte ranks."
+      },
+      "pair_measurements": [
+        {
+          "i": 0,
+          "j": 1,
+          "rank": 67,
+          "correct_score": 3.0820447992119844
+        },
+        {
+          "i": 0,
+          "j": 2,
+          "rank": 7271,
+          "correct_score": 1.2084417502077605
+        },
+        {
+          "i": 0,
+          "j": 7,
+          "rank": 2380,
+          "correct_score": 1.7957649514788794
+        },
+        {
+          "i": 1,
+          "j": 7,
+          "rank": 7261,
+          "correct_score": 1.224163129302352
+        },
+        {
+          "i": 1,
+          "j": 14,
+          "rank": 64527,
+          "correct_score": -2.113759713917598
+        },
+        {
+          "i": 2,
+          "j": 6,
+          "rank": 2174,
+          "correct_score": 1.8512027594668845
+        },
+        {
+          "i": 2,
+          "j": 13,
+          "rank": 2851,
+          "correct_score": 1.7141592936441874
+        },
+        {
+          "i": 2,
+          "j": 15,
+          "rank": 62829,
+          "correct_score": -1.7362549263737923
+        },
+        {
+          "i": 3,
+          "j": 7,
+          "rank": 2887,
+          "correct_score": 1.7015791045536897
+        },
+        {
+          "i": 3,
+          "j": 13,
+          "rank": 6561,
+          "correct_score": 1.2897473985042092
+        },
+        {
+          "i": 10,
+          "j": 13,
+          "rank": 26380,
+          "correct_score": 0.24914893546530584
+        },
+        {
+          "i": 11,
+          "j": 15,
+          "rank": 15565,
+          "correct_score": 0.7115382362710639
+        }
+      ]
+    },
+    {
+      "method": "expanded",
+      "offset": 16,
+      "preprocessing": {
+        "selected_traces": 1038129,
+        "total_traces": 1048576,
+        "upper_quantile": 0.99,
+        "upper_threshold_cycles": 17120.0,
+        "transform": "raw"
+      },
+      "summary": {
+        "pairs_tested": 12,
+        "hypotheses_per_pair": 65536,
+        "mean_correct_pair_rank": 17197.083333333332,
+        "median_correct_pair_rank": 3432.5,
+        "random_expected_mean_rank": 32768.5,
+        "mean_correct_pair_percentile": 0.7376045878792503,
+        "median_correct_pair_score": 1.6813214655117517,
+        "positive_correct_pair_scores": 9,
+        "top1_pairs": 0,
+        "top10_pairs": 0,
+        "note": "Pair ranks are diagnostic; they are not the assignment's 16 key-byte ranks."
+      },
+      "pair_measurements": [
+        {
+          "i": 0,
+          "j": 1,
+          "rank": 170,
+          "correct_score": 2.8105092660184923
+        },
+        {
+          "i": 0,
+          "j": 2,
+          "rank": 1021,
+          "correct_score": 2.158626890241718
+        },
+        {
+          "i": 0,
+          "j": 7,
+          "rank": 461,
+          "correct_score": 2.4278177712338698
+        },
+        {
+          "i": 1,
+          "j": 7,
+          "rank": 5200,
+          "correct_score": 1.4128202520359685
+        },
+        {
+          "i": 1,
+          "j": 14,
+          "rank": 63473,
+          "correct_score": -1.8359076584463514
+        },
+        {
+          "i": 2,
+          "j": 6,
+          "rank": 1665,
+          "correct_score": 1.9498226789875348
+        },
+        {
+          "i": 2,
+          "j": 13,
+          "rank": 15684,
+          "correct_score": 0.7074042853628482
+        },
+        {
+          "i": 2,
+          "j": 15,
+          "rank": 63224,
+          "correct_score": -1.8048961639413774
+        },
+        {
+          "i": 3,
+          "j": 7,
+          "rank": 741,
+          "correct_score": 2.2484805847344815
+        },
+        {
+          "i": 3,
+          "j": 13,
+          "rank": 33850,
+          "correct_score": -0.04623095982443658
+        },
+        {
+          "i": 10,
+          "j": 13,
+          "rank": 20726,
+          "correct_score": 0.47800350753321846
+        },
+        {
+          "i": 11,
+          "j": 15,
+          "rank": 150,
+          "correct_score": 2.8434296098862264
+        }
+      ]
+    },
+    {
+      "method": "expanded",
+      "offset": 20,
+      "preprocessing": {
+        "selected_traces": 1038129,
+        "total_traces": 1048576,
+        "upper_quantile": 0.99,
+        "upper_threshold_cycles": 17120.0,
+        "transform": "raw"
+      },
+      "summary": {
+        "pairs_tested": 12,
+        "hypotheses_per_pair": 65536,
+        "mean_correct_pair_rank": 16219.583333333334,
+        "median_correct_pair_rank": 10057.5,
+        "random_expected_mean_rank": 32768.5,
+        "mean_correct_pair_percentile": 0.7525202817832711,
+        "median_correct_pair_score": 1.0223512834138373,
+        "positive_correct_pair_scores": 10,
+        "top1_pairs": 0,
+        "top10_pairs": 1,
+        "note": "Pair ranks are diagnostic; they are not the assignment's 16 key-byte ranks."
+      },
+      "pair_measurements": [
+        {
+          "i": 0,
+          "j": 1,
+          "rank": 581,
+          "correct_score": 2.382673619560242
+        },
+        {
+          "i": 0,
+          "j": 2,
+          "rank": 4457,
+          "correct_score": 1.4798991914013961
+        },
+        {
+          "i": 0,
+          "j": 7,
+          "rank": 13289,
+          "correct_score": 0.822389970629052
+        },
+        {
+          "i": 1,
+          "j": 7,
+          "rank": 4830,
+          "correct_score": 1.451703612766822
+        },
+        {
+          "i": 1,
+          "j": 14,
+          "rank": 39901,
+          "correct_score": -0.2661320316078384
+        },
+        {
+          "i": 2,
+          "j": 6,
+          "rank": 10603,
+          "correct_score": 0.9789707491416455
+        },
+        {
+          "i": 2,
+          "j": 13,
+          "rank": 9512,
+          "correct_score": 1.065731817686029
+        },
+        {
+          "i": 2,
+          "j": 15,
+          "rank": 54601,
+          "correct_score": -0.9717713391383304
+        },
+        {
+          "i": 3,
+          "j": 7,
+          "rank": 7664,
+          "correct_score": 1.1762621803343223
+        },
+        {
+          "i": 3,
+          "j": 13,
+          "rank": 18616,
+          "correct_score": 0.5688717356718839
+        },
+        {
+          "i": 10,
+          "j": 13,
+          "rank": 30572,
+          "correct_score": 0.0855144149317923
+        },
+        {
+          "i": 11,
+          "j": 15,
+          "rank": 9,
+          "correct_score": 3.6794550102629575
+        }
+      ]
+    },
+    {
+      "method": "expanded",
+      "offset": 24,
+      "preprocessing": {
+        "selected_traces": 1038129,
+        "total_traces": 1048576,
+        "upper_quantile": 0.99,
+        "upper_threshold_cycles": 17120.0,
+        "transform": "raw"
+      },
+      "summary": {
+        "pairs_tested": 12,
+        "hypotheses_per_pair": 65536,
+        "mean_correct_pair_rank": 10461.583333333334,
+        "median_correct_pair_rank": 10634.0,
+        "random_expected_mean_rank": 32768.5,
+        "mean_correct_pair_percentile": 0.840381729864449,
+        "median_correct_pair_score": 0.9835466220536686,
+        "positive_correct_pair_scores": 12,
+        "top1_pairs": 0,
+        "top10_pairs": 0,
+        "note": "Pair ranks are diagnostic; they are not the assignment's 16 key-byte ranks."
+      },
+      "pair_measurements": [
+        {
+          "i": 0,
+          "j": 1,
+          "rank": 73,
+          "correct_score": 3.186027995049455
+        },
+        {
+          "i": 0,
+          "j": 2,
+          "rank": 957,
+          "correct_score": 2.1688761099571505
+        },
+        {
+          "i": 0,
+          "j": 7,
+          "rank": 6599,
+          "correct_score": 1.2648938407250723
+        },
+        {
+          "i": 1,
+          "j": 7,
+          "rank": 137,
+          "correct_score": 2.879712412375961
+        },
+        {
+          "i": 1,
+          "j": 14,
+          "rank": 26421,
+          "correct_score": 0.24052327718851557
+        },
+        {
+          "i": 2,
+          "j": 6,
+          "rank": 12454,
+          "correct_score": 0.8544425398585452
+        },
+        {
+          "i": 2,
+          "j": 13,
+          "rank": 16498,
+          "correct_score": 0.6785369781994085
+        },
+        {
+          "i": 2,
+          "j": 15,
+          "rank": 25790,
+          "correct_score": 0.2711690601171625
+        },
+        {
+          "i": 3,
+          "j": 7,
+          "rank": 13239,
+          "correct_score": 0.8299057671780501
+        },
+        {
+          "i": 3,
+          "j": 13,
+          "rank": 8814,
+          "correct_score": 1.112650704248792
+        },
+        {
+          "i": 10,
+          "j": 13,
+          "rank": 14350,
+          "correct_score": 0.7807535421054296
+        },
+        {
+          "i": 11,
+          "j": 15,
+          "rank": 207,
+          "correct_score": 2.7560914301132424
+        }
+      ]
+    },
+    {
+      "method": "expanded",
+      "offset": 28,
+      "preprocessing": {
+        "selected_traces": 1038129,
+        "total_traces": 1048576,
+        "upper_quantile": 0.99,
+        "upper_threshold_cycles": 17120.0,
+        "transform": "raw"
+      },
+      "summary": {
+        "pairs_tested": 12,
+        "hypotheses_per_pair": 65536,
+        "mean_correct_pair_rank": 9531.416666666666,
+        "median_correct_pair_rank": 3605.5,
+        "random_expected_mean_rank": 32768.5,
+        "mean_correct_pair_percentile": 0.8545751633986929,
+        "median_correct_pair_score": 1.6050580937352166,
+        "positive_correct_pair_scores": 10,
+        "top1_pairs": 0,
+        "top10_pairs": 0,
+        "note": "Pair ranks are diagnostic; they are not the assignment's 16 key-byte ranks."
+      },
+      "pair_measurements": [
+        {
+          "i": 0,
+          "j": 1,
+          "rank": 33,
+          "correct_score": 3.292801893492366
+        },
+        {
+          "i": 0,
+          "j": 2,
+          "rank": 1952,
+          "correct_score": 1.8723218372795098
+        },
+        {
+          "i": 0,
+          "j": 7,
+          "rank": 2631,
+          "correct_score": 1.7245735171876546
+        },
+        {
+          "i": 1,
+          "j": 7,
+          "rank": 94,
+          "correct_score": 2.995084117964166
+        },
+        {
+          "i": 1,
+          "j": 14,
+          "rank": 33695,
+          "correct_score": -0.03561125738821836
+        },
+        {
+          "i": 2,
+          "j": 6,
+          "rank": 1628,
+          "correct_score": 1.9404380746888674
+        },
+        {
+          "i": 2,
+          "j": 13,
+          "rank": 6554,
+          "correct_score": 1.2963116178740148
+        },
+        {
+          "i": 2,
+          "j": 15,
+          "rank": 38230,
+          "correct_score": -0.21176400439143178
+        },
+        {
+          "i": 3,
+          "j": 7,
+          "rank": 14880,
+          "correct_score": 0.7382573777348901
+        },
+        {
+          "i": 3,
+          "j": 13,
+          "rank": 4580,
+          "correct_score": 1.4855426702827788
+        },
+        {
+          "i": 10,
+          "j": 13,
+          "rank": 9918,
+          "correct_score": 1.02764409296772
+        },
+        {
+          "i": 11,
+          "j": 15,
+          "rank": 182,
+          "correct_score": 2.829499022868392
+        }
+      ]
+    },
+    {
+      "method": "simple",
+      "offset": null,
+      "preprocessing": {
+        "selected_traces": 996152,
+        "total_traces": 1048576,
+        "upper_quantile": 0.95,
+        "upper_threshold_cycles": 16621.0,
+        "transform": "raw"
+      },
+      "summary": {
+        "pairs_tested": 12,
+        "hypotheses_per_pair": 256,
+        "mean_correct_pair_rank": 90.66666666666667,
+        "median_correct_pair_rank": 80.0,
+        "random_expected_mean_rank": 128.5,
+        "mean_correct_pair_percentile": 0.6483660130718955,
+        "median_correct_pair_score": 0.5082572844243152,
+        "positive_correct_pair_scores": 7,
+        "top1_pairs": 0,
+        "top10_pairs": 2,
+        "note": "Pair ranks are diagnostic; they are not the assignment's 16 key-byte ranks."
+      },
+      "pair_measurements": [
+        {
+          "i": 0,
+          "j": 1,
+          "rank": 13,
+          "correct_score": 1.850953947029924
+        },
+        {
+          "i": 0,
+          "j": 2,
+          "rank": 3,
+          "correct_score": 2.1730321871295275
+        },
+        {
+          "i": 0,
+          "j": 7,
+          "rank": 45,
+          "correct_score": 0.8210338031682588
+        },
+        {
+          "i": 1,
+          "j": 7,
+          "rank": 6,
+          "correct_score": 1.9473450039110307
+        },
+        {
+          "i": 1,
+          "j": 14,
+          "rank": 115,
+          "correct_score": 0.19548076568037165
+        },
+        {
+          "i": 2,
+          "j": 6,
+          "rank": 27,
+          "correct_score": 1.249658746164368
+        },
+        {
+          "i": 2,
+          "j": 13,
+          "rank": 170,
+          "correct_score": -0.37286515983614127
+        },
+        {
+          "i": 2,
+          "j": 15,
+          "rank": 215,
+          "correct_score": -1.0305182023726864
+        },
+        {
+          "i": 3,
+          "j": 7,
+          "rank": 146,
+          "correct_score": -0.11243017472660388
+        },
+        {
+          "i": 3,
+          "j": 13,
+          "rank": 21,
+          "correct_score": 1.5577444007949222
+        },
+        {
+          "i": 10,
+          "j": 13,
+          "rank": 176,
+          "correct_score": -0.3974998394464305
+        },
+        {
+          "i": 11,
+          "j": 15,
+          "rank": 151,
+          "correct_score": -0.24701545227438007
+        }
+      ]
+    },
+    {
+      "method": "expanded",
+      "offset": 0,
+      "preprocessing": {
+        "selected_traces": 996152,
+        "total_traces": 1048576,
+        "upper_quantile": 0.95,
+        "upper_threshold_cycles": 16621.0,
+        "transform": "raw"
+      },
+      "summary": {
+        "pairs_tested": 12,
+        "hypotheses_per_pair": 65536,
+        "mean_correct_pair_rank": 4972.416666666667,
+        "median_correct_pair_rank": 1292.5,
+        "random_expected_mean_rank": 32768.5,
+        "mean_correct_pair_percentile": 0.9241410442257317,
+        "median_correct_pair_score": 2.0971148664231816,
+        "positive_correct_pair_scores": 12,
+        "top1_pairs": 1,
+        "top10_pairs": 1,
+        "note": "Pair ranks are diagnostic; they are not the assignment's 16 key-byte ranks."
+      },
+      "pair_measurements": [
+        {
+          "i": 0,
+          "j": 1,
+          "rank": 16,
+          "correct_score": 3.434420105664542
+        },
+        {
+          "i": 0,
+          "j": 2,
+          "rank": 389,
+          "correct_score": 2.4725786631035436
+        },
+        {
+          "i": 0,
+          "j": 7,
+          "rank": 57,
+          "correct_score": 3.1176877517478063
+        },
+        {
+          "i": 1,
+          "j": 7,
+          "rank": 1,
+          "correct_score": 4.572923262533734
+        },
+        {
+          "i": 1,
+          "j": 14,
+          "rank": 27230,
+          "correct_score": 0.20836045766624323
+        },
+        {
+          "i": 2,
+          "j": 6,
+          "rank": 2393,
+          "correct_score": 1.7908137007534874
+        },
+        {
+          "i": 2,
+          "j": 13,
+          "rank": 859,
+          "correct_score": 2.2540796162645105
+        },
+        {
+          "i": 2,
+          "j": 15,
+          "rank": 21053,
+          "correct_score": 0.46523813633972727
+        },
+        {
+          "i": 3,
+          "j": 7,
+          "rank": 178,
+          "correct_score": 2.7559996801336837
+        },
+        {
+          "i": 3,
+          "j": 13,
+          "rank": 2324,
+          "correct_score": 1.8238816932166357
+        },
+        {
+          "i": 10,
+          "j": 13,
+          "rank": 1726,
+          "correct_score": 1.9401501165818522
+        },
+        {
+          "i": 11,
+          "j": 15,
+          "rank": 3443,
+          "correct_score": 1.6176359523054573
+        }
+      ]
+    },
+    {
+      "method": "expanded",
+      "offset": 4,
+      "preprocessing": {
+        "selected_traces": 996152,
+        "total_traces": 1048576,
+        "upper_quantile": 0.95,
+        "upper_threshold_cycles": 16621.0,
+        "transform": "raw"
+      },
+      "summary": {
+        "pairs_tested": 12,
+        "hypotheses_per_pair": 65536,
+        "mean_correct_pair_rank": 8642.166666666666,
+        "median_correct_pair_rank": 1632.0,
+        "random_expected_mean_rank": 32768.5,
+        "mean_correct_pair_percentile": 0.8681442486203302,
+        "median_correct_pair_score": 1.957086383812999,
+        "positive_correct_pair_scores": 11,
+        "top1_pairs": 0,
+        "top10_pairs": 1,
+        "note": "Pair ranks are diagnostic; they are not the assignment's 16 key-byte ranks."
+      },
+      "pair_measurements": [
+        {
+          "i": 0,
+          "j": 1,
+          "rank": 10,
+          "correct_score": 3.566636747131108
+        },
+        {
+          "i": 0,
+          "j": 2,
+          "rank": 1591,
+          "correct_score": 1.9481213351063555
+        },
+        {
+          "i": 0,
+          "j": 7,
+          "rank": 515,
+          "correct_score": 2.4101430502076626
+        },
+        {
+          "i": 1,
+          "j": 7,
+          "rank": 220,
+          "correct_score": 2.6919182568907396
+        },
+        {
+          "i": 1,
+          "j": 14,
+          "rank": 29001,
+          "correct_score": 0.14733148643649846
+        },
+        {
+          "i": 2,
+          "j": 6,
+          "rank": 712,
+          "correct_score": 2.308769736207124
+        },
+        {
+          "i": 2,
+          "j": 13,
+          "rank": 3641,
+          "correct_score": 1.5964644793779097
+        },
+        {
+          "i": 2,
+          "j": 15,
+          "rank": 39384,
+          "correct_score": -0.2576004743335043
+        },
+        {
+          "i": 3,
+          "j": 7,
+          "rank": 77,
+          "correct_score": 3.0562450757134454
+        },
+        {
+          "i": 3,
+          "j": 13,
+          "rank": 1673,
+          "correct_score": 1.9660514325196423
+        },
+        {
+          "i": 10,
+          "j": 13,
+          "rank": 11763,
+          "correct_score": 0.9210966505041775
+        },
+        {
+          "i": 11,
+          "j": 15,
+          "rank": 15119,
+          "correct_score": 0.7457888832265551
+        }
+      ]
+    },
+    {
+      "method": "expanded",
+      "offset": 8,
+      "preprocessing": {
+        "selected_traces": 996152,
+        "total_traces": 1048576,
+        "upper_quantile": 0.95,
+        "upper_threshold_cycles": 16621.0,
+        "transform": "raw"
+      },
+      "summary": {
+        "pairs_tested": 12,
+        "hypotheses_per_pair": 65536,
+        "mean_correct_pair_rank": 10868.333333333334,
+        "median_correct_pair_rank": 3417.5,
+        "random_expected_mean_rank": 32768.5,
+        "mean_correct_pair_percentile": 0.8341751227079679,
+        "median_correct_pair_score": 1.6336690152692315,
+        "positive_correct_pair_scores": 11,
+        "top1_pairs": 0,
+        "top10_pairs": 0,
+        "note": "Pair ranks are diagnostic; they are not the assignment's 16 key-byte ranks."
+      },
+      "pair_measurements": [
+        {
+          "i": 0,
+          "j": 1,
+          "rank": 95,
+          "correct_score": 3.0062244169407446
+        },
+        {
+          "i": 0,
+          "j": 2,
+          "rank": 1192,
+          "correct_score": 2.081775944425132
+        },
+        {
+          "i": 0,
+          "j": 7,
+          "rank": 3881,
+          "correct_score": 1.548870814976628
+        },
+        {
+          "i": 1,
+          "j": 7,
+          "rank": 3543,
+          "correct_score": 1.6145878689618072
+        },
+        {
+          "i": 1,
+          "j": 14,
+          "rank": 29968,
+          "correct_score": 0.10516719640169146
+        },
+        {
+          "i": 2,
+          "j": 6,
+          "rank": 2525,
+          "correct_score": 1.7753245565017926
+        },
+        {
+          "i": 2,
+          "j": 13,
+          "rank": 3292,
+          "correct_score": 1.652750161576656
+        },
+        {
+          "i": 2,
+          "j": 15,
+          "rank": 61182,
+          "correct_score": -1.5120765669377174
+        },
+        {
+          "i": 3,
+          "j": 7,
+          "rank": 775,
+          "correct_score": 2.244194762718513
+        },
+        {
+          "i": 3,
+          "j": 13,
+          "rank": 3258,
+          "correct_score": 1.6722411524323009
+        },
+        {
+          "i": 10,
+          "j": 13,
+          "rank": 12845,
+          "correct_score": 0.8566157298010644
+        },
+        {
+          "i": 11,
+          "j": 15,
+          "rank": 7864,
+          "correct_score": 1.1675052391310325
+        }
+      ]
+    },
+    {
+      "method": "expanded",
+      "offset": 12,
+      "preprocessing": {
+        "selected_traces": 996152,
+        "total_traces": 1048576,
+        "upper_quantile": 0.95,
+        "upper_threshold_cycles": 16621.0,
+        "transform": "raw"
+      },
+      "summary": {
+        "pairs_tested": 12,
+        "hypotheses_per_pair": 65536,
+        "mean_correct_pair_rank": 14748.166666666666,
+        "median_correct_pair_rank": 4652.5,
+        "random_expected_mean_rank": 32768.5,
+        "mean_correct_pair_percentile": 0.7749726609191017,
+        "median_correct_pair_score": 1.4733475592487935,
+        "positive_correct_pair_scores": 10,
+        "top1_pairs": 0,
+        "top10_pairs": 0,
+        "note": "Pair ranks are diagnostic; they are not the assignment's 16 key-byte ranks."
+      },
+      "pair_measurements": [
+        {
+          "i": 0,
+          "j": 1,
+          "rank": 69,
+          "correct_score": 3.0790386887312327
+        },
+        {
+          "i": 0,
+          "j": 2,
+          "rank": 4143,
+          "correct_score": 1.5154792054682868
+        },
+        {
+          "i": 0,
+          "j": 7,
+          "rank": 2191,
+          "correct_score": 1.818740898959151
+        },
+        {
+          "i": 1,
+          "j": 7,
+          "rank": 5966,
+          "correct_score": 1.342959048186958
+        },
+        {
+          "i": 1,
+          "j": 14,
+          "rank": 61909,
+          "correct_score": -1.5541183436973764
+        },
+        {
+          "i": 2,
+          "j": 6,
+          "rank": 2479,
+          "correct_score": 1.7805144411822
+        },
+        {
+          "i": 2,
+          "j": 13,
+          "rank": 2147,
+          "correct_score": 1.8601199502885981
+        },
+        {
+          "i": 2,
+          "j": 15,
+          "rank": 58505,
+          "correct_score": -1.2500494948557401
+        },
+        {
+          "i": 3,
+          "j": 7,
+          "rank": 1767,
+          "correct_score": 1.9214013552614542
+        },
+        {
+          "i": 3,
+          "j": 13,
+          "rank": 5162,
+          "correct_score": 1.4312159130293003
+        },
+        {
+          "i": 10,
+          "j": 13,
+          "rank": 6127,
+          "correct_score": 1.3120895780238593
+        },
+        {
+          "i": 11,
+          "j": 15,
+          "rank": 26513,
+          "correct_score": 0.24283890718254195
+        }
+      ]
+    },
+    {
+      "method": "expanded",
+      "offset": 16,
+      "preprocessing": {
+        "selected_traces": 996152,
+        "total_traces": 1048576,
+        "upper_quantile": 0.95,
+        "upper_threshold_cycles": 16621.0,
+        "transform": "raw"
+      },
+      "summary": {
+        "pairs_tested": 12,
+        "hypotheses_per_pair": 65536,
+        "mean_correct_pair_rank": 16241.916666666666,
+        "median_correct_pair_rank": 3652.0,
+        "random_expected_mean_rank": 32768.5,
+        "mean_correct_pair_percentile": 0.7521794969609116,
+        "median_correct_pair_score": 1.6293639820610084,
+        "positive_correct_pair_scores": 9,
+        "top1_pairs": 0,
+        "top10_pairs": 0,
+        "note": "Pair ranks are diagnostic; they are not the assignment's 16 key-byte ranks."
+      },
+      "pair_measurements": [
+        {
+          "i": 0,
+          "j": 1,
+          "rank": 82,
+          "correct_score": 3.0076372070172663
+        },
+        {
+          "i": 0,
+          "j": 2,
+          "rank": 1112,
+          "correct_score": 2.1101793171792775
+        },
+        {
+          "i": 0,
+          "j": 7,
+          "rank": 370,
+          "correct_score": 2.52906842953684
+        },
+        {
+          "i": 1,
+          "j": 7,
+          "rank": 5187,
+          "correct_score": 1.4062524535770164
+        },
+        {
+          "i": 1,
+          "j": 14,
+          "rank": 60980,
+          "correct_score": -1.4519001899676123
+        },
+        {
+          "i": 2,
+          "j": 6,
+          "rank": 2117,
+          "correct_score": 1.8524755105450004
+        },
+        {
+          "i": 2,
+          "j": 13,
+          "rank": 12951,
+          "correct_score": 0.856790696125318
+        },
+        {
+          "i": 2,
+          "j": 15,
+          "rank": 60886,
+          "correct_score": -1.4699012387103252
+        },
+        {
+          "i": 3,
+          "j": 7,
+          "rank": 323,
+          "correct_score": 2.563039897928846
+        },
+        {
+          "i": 3,
+          "j": 13,
+          "rank": 41548,
+          "correct_score": -0.3375135381576853
+        },
+        {
+          "i": 10,
+          "j": 13,
+          "rank": 9152,
+          "correct_score": 1.0729094316482843
+        },
+        {
+          "i": 11,
+          "j": 15,
+          "rank": 195,
+          "correct_score": 2.747667422383251
+        }
+      ]
+    },
+    {
+      "method": "expanded",
+      "offset": 20,
+      "preprocessing": {
+        "selected_traces": 996152,
+        "total_traces": 1048576,
+        "upper_quantile": 0.95,
+        "upper_threshold_cycles": 16621.0,
+        "transform": "raw"
+      },
+      "summary": {
+        "pairs_tested": 12,
+        "hypotheses_per_pair": 65536,
+        "mean_correct_pair_rank": 15777.333333333334,
+        "median_correct_pair_rank": 8774.0,
+        "random_expected_mean_rank": 32768.5,
+        "mean_correct_pair_percentile": 0.7592685842170851,
+        "median_correct_pair_score": 1.1105115060002015,
+        "positive_correct_pair_scores": 10,
+        "top1_pairs": 0,
+        "top10_pairs": 0,
+        "note": "Pair ranks are diagnostic; they are not the assignment's 16 key-byte ranks."
+      },
+      "pair_measurements": [
+        {
+          "i": 0,
+          "j": 1,
+          "rank": 66,
+          "correct_score": 3.1489233527910896
+        },
+        {
+          "i": 0,
+          "j": 2,
+          "rank": 2905,
+          "correct_score": 1.698618161751448
+        },
+        {
+          "i": 0,
+          "j": 7,
+          "rank": 7758,
+          "correct_score": 1.1645493028640757
+        },
+        {
+          "i": 1,
+          "j": 7,
+          "rank": 3933,
+          "correct_score": 1.5573137968323785
+        },
+        {
+          "i": 1,
+          "j": 14,
+          "rank": 34017,
+          "correct_score": -0.04338624539117536
+        },
+        {
+          "i": 2,
+          "j": 6,
+          "rank": 13389,
+          "correct_score": 0.8311850873059304
+        },
+        {
+          "i": 2,
+          "j": 13,
+          "rank": 8851,
+          "correct_score": 1.1113993319556854
+        },
+        {
+          "i": 2,
+          "j": 15,
+          "rank": 59760,
+          "correct_score": -1.3540953622487033
+        },
+        {
+          "i": 3,
+          "j": 7,
+          "rank": 8697,
+          "correct_score": 1.1096236800447177
+        },
+        {
+          "i": 3,
+          "j": 13,
+          "rank": 22651,
+          "correct_score": 0.39644273106558825
+        },
+        {
+          "i": 10,
+          "j": 13,
+          "rank": 27116,
+          "correct_score": 0.22017568621244504
+        },
+        {
+          "i": 11,
+          "j": 15,
+          "rank": 185,
+          "correct_score": 2.748750790514407
+        }
+      ]
+    },
+    {
+      "method": "expanded",
+      "offset": 24,
+      "preprocessing": {
+        "selected_traces": 996152,
+        "total_traces": 1048576,
+        "upper_quantile": 0.95,
+        "upper_threshold_cycles": 16621.0,
+        "transform": "raw"
+      },
+      "summary": {
+        "pairs_tested": 12,
+        "hypotheses_per_pair": 65536,
+        "mean_correct_pair_rank": 9649.0,
+        "median_correct_pair_rank": 8042.0,
+        "random_expected_mean_rank": 32768.5,
+        "mean_correct_pair_percentile": 0.852780956740673,
+        "median_correct_pair_score": 1.2205856072063077,
+        "positive_correct_pair_scores": 12,
+        "top1_pairs": 0,
+        "top10_pairs": 0,
+        "note": "Pair ranks are diagnostic; they are not the assignment's 16 key-byte ranks."
+      },
+      "pair_measurements": [
+        {
+          "i": 0,
+          "j": 1,
+          "rank": 18,
+          "correct_score": 3.5591001477288655
+        },
+        {
+          "i": 0,
+          "j": 2,
+          "rank": 646,
+          "correct_score": 2.316145851091482
+        },
+        {
+          "i": 0,
+          "j": 7,
+          "rank": 2923,
+          "correct_score": 1.67769603236406
+        },
+        {
+          "i": 1,
+          "j": 7,
+          "rank": 152,
+          "correct_score": 2.8626639648732217
+        },
+        {
+          "i": 1,
+          "j": 14,
+          "rank": 20205,
+          "correct_score": 0.4865693009413493
+        },
+        {
+          "i": 2,
+          "j": 6,
+          "rank": 23528,
+          "correct_score": 0.3608022345792584
+        },
+        {
+          "i": 2,
+          "j": 13,
+          "rank": 2634,
+          "correct_score": 1.7715836871945354
+        },
+        {
+          "i": 2,
+          "j": 15,
+          "rank": 22066,
+          "correct_score": 0.42150769442120034
+        },
+        {
+          "i": 3,
+          "j": 7,
+          "rank": 12087,
+          "correct_score": 0.8927994174035562
+        },
+        {
+          "i": 3,
+          "j": 13,
+          "rank": 14324,
+          "correct_score": 0.79336153160988
+        },
+        {
+          "i": 10,
+          "j": 13,
+          "rank": 13208,
+          "correct_score": 0.8355969215191148
+        },
+        {
+          "i": 11,
+          "j": 15,
+          "rank": 3997,
+          "correct_score": 1.5483717970090591
+        }
+      ]
+    },
+    {
+      "method": "expanded",
+      "offset": 28,
+      "preprocessing": {
+        "selected_traces": 996152,
+        "total_traces": 1048576,
+        "upper_quantile": 0.95,
+        "upper_threshold_cycles": 16621.0,
+        "transform": "raw"
+      },
+      "summary": {
+        "pairs_tested": 12,
+        "hypotheses_per_pair": 65536,
+        "mean_correct_pair_rank": 9702.333333333334,
+        "median_correct_pair_rank": 4763.0,
+        "random_expected_mean_rank": 32768.5,
+        "mean_correct_pair_percentile": 0.8519671422395159,
+        "median_correct_pair_score": 1.4798769784468724,
+        "positive_correct_pair_scores": 11,
+        "top1_pairs": 0,
+        "top10_pairs": 0,
+        "note": "Pair ranks are diagnostic; they are not the assignment's 16 key-byte ranks."
+      },
+      "pair_measurements": [
+        {
+          "i": 0,
+          "j": 1,
+          "rank": 47,
+          "correct_score": 3.2812059725466405
+        },
+        {
+          "i": 0,
+          "j": 2,
+          "rank": 1190,
+          "correct_score": 2.080169467168544
+        },
+        {
+          "i": 0,
+          "j": 7,
+          "rank": 1087,
+          "correct_score": 2.1050210549564214
+        },
+        {
+          "i": 1,
+          "j": 7,
+          "rank": 89,
+          "correct_score": 3.017965880364368
+        },
+        {
+          "i": 1,
+          "j": 14,
+          "rank": 44245,
+          "correct_score": -0.44523029752912924
+        },
+        {
+          "i": 2,
+          "j": 6,
+          "rank": 6513,
+          "correct_score": 1.2865693793458404
+        },
+        {
+          "i": 2,
+          "j": 13,
+          "rank": 930,
+          "correct_score": 2.232968094694102
+        },
+        {
+          "i": 2,
+          "j": 15,
+          "rank": 25908,
+          "correct_score": 0.27038122052820834
+        },
+        {
+          "i": 3,
+          "j": 7,
+          "rank": 15293,
+          "correct_score": 0.7164811257920956
+        },
+        {
+          "i": 3,
+          "j": 13,
+          "rank": 7203,
+          "correct_score": 1.2420380250266227
+        },
+        {
+          "i": 10,
+          "j": 13,
+          "rank": 10910,
+          "correct_score": 0.9675882443134121
+        },
+        {
+          "i": 11,
+          "j": 15,
+          "rank": 3013,
+          "correct_score": 1.6731845775479046
+        }
+      ]
+    },
+    {
+      "method": "simple",
+      "offset": null,
+      "preprocessing": {
+        "selected_traces": 1038129,
+        "total_traces": 1048576,
+        "upper_quantile": 0.99,
+        "upper_threshold_cycles": 17120.0,
+        "transform": "log"
+      },
+      "summary": {
+        "pairs_tested": 12,
+        "hypotheses_per_pair": 256,
+        "mean_correct_pair_rank": 83.66666666666667,
+        "median_correct_pair_rank": 52.0,
+        "random_expected_mean_rank": 128.5,
+        "mean_correct_pair_percentile": 0.6758169934640522,
+        "median_correct_pair_score": 0.8658664403841433,
+        "positive_correct_pair_scores": 9,
+        "top1_pairs": 0,
+        "top10_pairs": 3,
+        "note": "Pair ranks are diagnostic; they are not the assignment's 16 key-byte ranks."
+      },
+      "pair_measurements": [
+        {
+          "i": 0,
+          "j": 1,
+          "rank": 23,
+          "correct_score": 1.4324251451525976
+        },
+        {
+          "i": 0,
+          "j": 2,
+          "rank": 4,
+          "correct_score": 2.1920624990967634
+        },
+        {
+          "i": 0,
+          "j": 7,
+          "rank": 23,
+          "correct_score": 1.3185470334860083
+        },
+        {
+          "i": 1,
+          "j": 7,
+          "rank": 6,
+          "correct_score": 1.9282362175593721
+        },
+        {
+          "i": 1,
+          "j": 14,
+          "rank": 76,
+          "correct_score": 0.4131858472822782
+        },
+        {
+          "i": 2,
+          "j": 6,
+          "rank": 10,
+          "correct_score": 1.537026635502692
+        },
+        {
+          "i": 2,
+          "j": 13,
+          "rank": 182,
+          "correct_score": -0.5336173371942631
+        },
+        {
+          "i": 2,
+          "j": 15,
+          "rank": 240,
+          "correct_score": -1.5254253474554882
+        },
+        {
+          "i": 3,
+          "j": 7,
+          "rank": 128,
+          "correct_score": 0.045912565486479213
+        },
+        {
+          "i": 3,
+          "j": 13,
+          "rank": 28,
+          "correct_score": 1.3915043491114503
+        },
+        {
+          "i": 10,
+          "j": 13,
+          "rank": 170,
+          "correct_score": -0.36466595183580425
+        },
+        {
+          "i": 11,
+          "j": 15,
+          "rank": 114,
+          "correct_score": 0.13385890340214238
+        }
+      ]
+    },
+    {
+      "method": "expanded",
+      "offset": 0,
+      "preprocessing": {
+        "selected_traces": 1038129,
+        "total_traces": 1048576,
+        "upper_quantile": 0.99,
+        "upper_threshold_cycles": 17120.0,
+        "transform": "log"
+      },
+      "summary": {
+        "pairs_tested": 12,
+        "hypotheses_per_pair": 65536,
+        "mean_correct_pair_rank": 3507.4166666666665,
+        "median_correct_pair_rank": 260.5,
+        "random_expected_mean_rank": 32768.5,
+        "mean_correct_pair_percentile": 0.9464955113043921,
+        "median_correct_pair_score": 2.662118438415563,
+        "positive_correct_pair_scores": 12,
+        "top1_pairs": 1,
+        "top10_pairs": 2,
+        "note": "Pair ranks are diagnostic; they are not the assignment's 16 key-byte ranks."
+      },
+      "pair_measurements": [
+        {
+          "i": 0,
+          "j": 1,
+          "rank": 5,
+          "correct_score": 3.8366224614705358
+        },
+        {
+          "i": 0,
+          "j": 2,
+          "rank": 619,
+          "correct_score": 2.321976228065299
+        },
+        {
+          "i": 0,
+          "j": 7,
+          "rank": 45,
+          "correct_score": 3.1773649979878105
+        },
+        {
+          "i": 1,
+          "j": 7,
+          "rank": 1,
+          "correct_score": 4.370705950555034
+        },
+        {
+          "i": 1,
+          "j": 14,
+          "rank": 16782,
+          "correct_score": 0.6452383769097787
+        },
+        {
+          "i": 2,
+          "j": 6,
+          "rank": 187,
+          "correct_score": 2.726763302649434
+        },
+        {
+          "i": 2,
+          "j": 13,
+          "rank": 333,
+          "correct_score": 2.5857779260046723
+        },
+        {
+          "i": 2,
+          "j": 15,
+          "rank": 22964,
+          "correct_score": 0.3885957218562018
+        },
+        {
+          "i": 3,
+          "j": 7,
+          "rank": 117,
+          "correct_score": 2.870464433922285
+        },
+        {
+          "i": 3,
+          "j": 13,
+          "rank": 276,
+          "correct_score": 2.6199945801876945
+        },
+        {
+          "i": 10,
+          "j": 13,
+          "rank": 515,
+          "correct_score": 2.4062829836959554
+        },
+        {
+          "i": 11,
+          "j": 15,
+          "rank": 245,
+          "correct_score": 2.704242296643431
+        }
+      ]
+    },
+    {
+      "method": "expanded",
+      "offset": 4,
+      "preprocessing": {
+        "selected_traces": 1038129,
+        "total_traces": 1048576,
+        "upper_quantile": 0.99,
+        "upper_threshold_cycles": 17120.0,
+        "transform": "log"
+      },
+      "summary": {
+        "pairs_tested": 12,
+        "hypotheses_per_pair": 65536,
+        "mean_correct_pair_rank": 7241.666666666667,
+        "median_correct_pair_rank": 1022.0,
+        "random_expected_mean_rank": 32768.5,
+        "mean_correct_pair_percentile": 0.8895145087866535,
+        "median_correct_pair_score": 2.171349480590299,
+        "positive_correct_pair_scores": 11,
+        "top1_pairs": 0,
+        "top10_pairs": 0,
+        "note": "Pair ranks are diagnostic; they are not the assignment's 16 key-byte ranks."
+      },
+      "pair_measurements": [
+        {
+          "i": 0,
+          "j": 1,
+          "rank": 13,
+          "correct_score": 3.517397702867469
+        },
+        {
+          "i": 0,
+          "j": 2,
+          "rank": 1417,
+          "correct_score": 2.004273760011877
+        },
+        {
+          "i": 0,
+          "j": 7,
+          "rank": 253,
+          "correct_score": 2.6410526726750425
+        },
+        {
+          "i": 1,
+          "j": 7,
+          "rank": 162,
+          "correct_score": 2.8292228342190064
+        },
+        {
+          "i": 1,
+          "j": 14,
+          "rank": 24163,
+          "correct_score": 0.3294503821282215
+        },
+        {
+          "i": 2,
+          "j": 6,
+          "rank": 95,
+          "correct_score": 2.9562867058544398
+        },
+        {
+          "i": 2,
+          "j": 13,
+          "rank": 5836,
+          "correct_score": 1.341586713349503
+        },
+        {
+          "i": 2,
+          "j": 15,
+          "rank": 43883,
+          "correct_score": -0.4407799010879914
+        },
+        {
+          "i": 3,
+          "j": 7,
+          "rank": 56,
+          "correct_score": 3.088026629911655
+        },
+        {
+          "i": 3,
+          "j": 13,
+          "rank": 627,
+          "correct_score": 2.3384252011687208
+        },
+        {
+          "i": 10,
+          "j": 13,
+          "rank": 6298,
+          "correct_score": 1.3130790886030448
+        },
+        {
+          "i": 11,
+          "j": 15,
+          "rank": 4097,
+          "correct_score": 1.5383665274619502
+        }
+      ]
+    },
+    {
+      "method": "expanded",
+      "offset": 8,
+      "preprocessing": {
+        "selected_traces": 1038129,
+        "total_traces": 1048576,
+        "upper_quantile": 0.99,
+        "upper_threshold_cycles": 17120.0,
+        "transform": "log"
+      },
+      "summary": {
+        "pairs_tested": 12,
+        "hypotheses_per_pair": 65536,
+        "mean_correct_pair_rank": 10597.916666666666,
+        "median_correct_pair_rank": 2306.0,
+        "random_expected_mean_rank": 32768.5,
+        "mean_correct_pair_percentile": 0.8383014165458661,
+        "median_correct_pair_score": 1.8186912341617483,
+        "positive_correct_pair_scores": 11,
+        "top1_pairs": 0,
+        "top10_pairs": 0,
+        "note": "Pair ranks are diagnostic; they are not the assignment's 16 key-byte ranks."
+      },
+      "pair_measurements": [
+        {
+          "i": 0,
+          "j": 1,
+          "rank": 63,
+          "correct_score": 3.1413921564030267
+        },
+        {
+          "i": 0,
+          "j": 2,
+          "rank": 1015,
+          "correct_score": 2.1525195816537517
+        },
+        {
+          "i": 0,
+          "j": 7,
+          "rank": 2549,
+          "correct_score": 1.7515612451855942
+        },
+        {
+          "i": 1,
+          "j": 7,
+          "rank": 1747,
+          "correct_score": 1.937444119492114
+        },
+        {
+          "i": 1,
+          "j": 14,
+          "rank": 30977,
+          "correct_score": 0.0678741986181556
+        },
+        {
+          "i": 2,
+          "j": 6,
+          "rank": 967,
+          "correct_score": 2.185310399668749
+        },
+        {
+          "i": 2,
+          "j": 13,
+          "rank": 2153,
+          "correct_score": 1.838073683632937
+        },
+        {
+          "i": 2,
+          "j": 15,
+          "rank": 63574,
+          "correct_score": -1.8782175115812296
+        },
+        {
+          "i": 3,
+          "j": 7,
+          "rank": 1539,
+          "correct_score": 1.9539572859824481
+        },
+        {
+          "i": 3,
+          "j": 13,
+          "rank": 2459,
+          "correct_score": 1.7993087846905595
+        },
+        {
+          "i": 10,
+          "j": 13,
+          "rank": 16043,
+          "correct_score": 0.6942847226059122
+        },
+        {
+          "i": 11,
+          "j": 15,
+          "rank": 4089,
+          "correct_score": 1.5333400538596171
+        }
+      ]
+    },
+    {
+      "method": "expanded",
+      "offset": 12,
+      "preprocessing": {
+        "selected_traces": 1038129,
+        "total_traces": 1048576,
+        "upper_quantile": 0.99,
+        "upper_threshold_cycles": 17120.0,
+        "transform": "log"
+      },
+      "summary": {
+        "pairs_tested": 12,
+        "hypotheses_per_pair": 65536,
+        "mean_correct_pair_rank": 13950.916666666666,
+        "median_correct_pair_rank": 4162.5,
+        "random_expected_mean_rank": 32768.5,
+        "mean_correct_pair_percentile": 0.787137916126243,
+        "median_correct_pair_score": 1.5249215228439557,
+        "positive_correct_pair_scores": 10,
+        "top1_pairs": 0,
+        "top10_pairs": 0,
+        "note": "Pair ranks are diagnostic; they are not the assignment's 16 key-byte ranks."
+      },
+      "pair_measurements": [
+        {
+          "i": 0,
+          "j": 1,
+          "rank": 42,
+          "correct_score": 3.1972967216925183
+        },
+        {
+          "i": 0,
+          "j": 2,
+          "rank": 3936,
+          "correct_score": 1.543591641657062
+        },
+        {
+          "i": 0,
+          "j": 7,
+          "rank": 1461,
+          "correct_score": 2.013252741697474
+        },
+        {
+          "i": 1,
+          "j": 7,
+          "rank": 5386,
+          "correct_score": 1.3968685758587125
+        },
+        {
+          "i": 1,
+          "j": 14,
+          "rank": 63063,
+          "correct_score": -1.733335225126224
+        },
+        {
+          "i": 2,
+          "j": 6,
+          "rank": 1266,
+          "correct_score": 2.0860078034101903
+        },
+        {
+          "i": 2,
+          "j": 13,
+          "rank": 1452,
+          "correct_score": 2.0126041131261783
+        },
+        {
+          "i": 2,
+          "j": 15,
+          "rank": 59614,
+          "correct_score": -1.3460952993075477
+        },
+        {
+          "i": 3,
+          "j": 7,
+          "rank": 1816,
+          "correct_score": 1.9064914495389602
+        },
+        {
+          "i": 3,
+          "j": 13,
+          "rank": 4389,
+          "correct_score": 1.5062514040308495
+        },
+        {
+          "i": 10,
+          "j": 13,
+          "rank": 15355,
+          "correct_score": 0.7285988091414014
+        },
+        {
+          "i": 11,
+          "j": 15,
+          "rank": 9631,
+          "correct_score": 1.0452607918352188
+        }
+      ]
+    },
+    {
+      "method": "expanded",
+      "offset": 16,
+      "preprocessing": {
+        "selected_traces": 1038129,
+        "total_traces": 1048576,
+        "upper_quantile": 0.99,
+        "upper_threshold_cycles": 17120.0,
+        "transform": "log"
+      },
+      "summary": {
+        "pairs_tested": 12,
+        "hypotheses_per_pair": 65536,
+        "mean_correct_pair_rank": 15110.25,
+        "median_correct_pair_rank": 2428.0,
+        "random_expected_mean_rank": 32768.5,
+        "mean_correct_pair_percentile": 0.7694476234073396,
+        "median_correct_pair_score": 1.8915254473800203,
+        "positive_correct_pair_scores": 10,
+        "top1_pairs": 0,
+        "top10_pairs": 0,
+        "note": "Pair ranks are diagnostic; they are not the assignment's 16 key-byte ranks."
+      },
+      "pair_measurements": [
+        {
+          "i": 0,
+          "j": 1,
+          "rank": 74,
+          "correct_score": 3.0671795225237855
+        },
+        {
+          "i": 0,
+          "j": 2,
+          "rank": 520,
+          "correct_score": 2.4036162095875357
+        },
+        {
+          "i": 0,
+          "j": 7,
+          "rank": 205,
+          "correct_score": 2.7052762789180402
+        },
+        {
+          "i": 1,
+          "j": 7,
+          "rank": 4004,
+          "correct_score": 1.5479475768602364
+        },
+        {
+          "i": 1,
+          "j": 14,
+          "rank": 61183,
+          "correct_score": -1.4819227850206136
+        },
+        {
+          "i": 2,
+          "j": 6,
+          "rank": 852,
+          "correct_score": 2.235103317899804
+        },
+        {
+          "i": 2,
+          "j": 13,
+          "rank": 11346,
+          "correct_score": 0.9461947356429143
+        },
+        {
+          "i": 2,
+          "j": 15,
+          "rank": 61235,
+          "correct_score": -1.5061235534664004
+        },
+        {
+          "i": 3,
+          "j": 7,
+          "rank": 393,
+          "correct_score": 2.481764917383109
+        },
+        {
+          "i": 3,
+          "j": 13,
+          "rank": 28763,
+          "correct_score": 0.156710657506389
+        },
+        {
+          "i": 10,
+          "j": 13,
+          "rank": 12708,
+          "correct_score": 0.8642677637863492
+        },
+        {
+          "i": 11,
+          "j": 15,
+          "rank": 40,
+          "correct_score": 3.230611799767851
+        }
+      ]
+    },
+    {
+      "method": "expanded",
+      "offset": 20,
+      "preprocessing": {
+        "selected_traces": 1038129,
+        "total_traces": 1048576,
+        "upper_quantile": 0.99,
+        "upper_threshold_cycles": 17120.0,
+        "transform": "log"
+      },
+      "summary": {
+        "pairs_tested": 12,
+        "hypotheses_per_pair": 65536,
+        "mean_correct_pair_rank": 12852.916666666666,
+        "median_correct_pair_rank": 6996.5,
+        "random_expected_mean_rank": 32768.5,
+        "mean_correct_pair_percentile": 0.8038923221688158,
+        "median_correct_pair_score": 1.2427297835926256,
+        "positive_correct_pair_scores": 11,
+        "top1_pairs": 0,
+        "top10_pairs": 1,
+        "note": "Pair ranks are diagnostic; they are not the assignment's 16 key-byte ranks."
+      },
+      "pair_measurements": [
+        {
+          "i": 0,
+          "j": 1,
+          "rank": 196,
+          "correct_score": 2.7387410794111613
+        },
+        {
+          "i": 0,
+          "j": 2,
+          "rank": 2863,
+          "correct_score": 1.701135935274235
+        },
+        {
+          "i": 0,
+          "j": 7,
+          "rank": 8507,
+          "correct_score": 1.1173355371712794
+        },
+        {
+          "i": 1,
+          "j": 7,
+          "rank": 3006,
+          "correct_score": 1.678384341298072
+        },
+        {
+          "i": 1,
+          "j": 14,
+          "rank": 30914,
+          "correct_score": 0.06979555020388585
+        },
+        {
+          "i": 2,
+          "j": 6,
+          "rank": 7591,
+          "correct_score": 1.1848157328009246
+        },
+        {
+          "i": 2,
+          "j": 13,
+          "rank": 6402,
+          "correct_score": 1.3006438343843265
+        },
+        {
+          "i": 2,
+          "j": 15,
+          "rank": 51598,
+          "correct_score": -0.803142403220642
+        },
+        {
+          "i": 3,
+          "j": 7,
+          "rank": 5489,
+          "correct_score": 1.3566617161715324
+        },
+        {
+          "i": 3,
+          "j": 13,
+          "rank": 14678,
+          "correct_score": 0.7592510271976664
+        },
+        {
+          "i": 10,
+          "j": 13,
+          "rank": 22987,
+          "correct_score": 0.39078002610882767
+        },
+        {
+          "i": 11,
+          "j": 15,
+          "rank": 4,
+          "correct_score": 3.9812585765796356
+        }
+      ]
+    },
+    {
+      "method": "expanded",
+      "offset": 24,
+      "preprocessing": {
+        "selected_traces": 1038129,
+        "total_traces": 1048576,
+        "upper_quantile": 0.99,
+        "upper_threshold_cycles": 17120.0,
+        "transform": "log"
+      },
+      "summary": {
+        "pairs_tested": 12,
+        "hypotheses_per_pair": 65536,
+        "mean_correct_pair_rank": 6945.666666666667,
+        "median_correct_pair_rank": 7417.0,
+        "random_expected_mean_rank": 32768.5,
+        "mean_correct_pair_percentile": 0.8940311792680756,
+        "median_correct_pair_score": 1.2247036740631996,
+        "positive_correct_pair_scores": 12,
+        "top1_pairs": 0,
+        "top10_pairs": 0,
+        "note": "Pair ranks are diagnostic; they are not the assignment's 16 key-byte ranks."
+      },
+      "pair_measurements": [
+        {
+          "i": 0,
+          "j": 1,
+          "rank": 20,
+          "correct_score": 3.5466924902449746
+        },
+        {
+          "i": 0,
+          "j": 2,
+          "rank": 623,
+          "correct_score": 2.3299850971055203
+        },
+        {
+          "i": 0,
+          "j": 7,
+          "rank": 3083,
+          "correct_score": 1.6623448112431287
+        },
+        {
+          "i": 1,
+          "j": 7,
+          "rank": 48,
+          "correct_score": 3.20261887555651
+        },
+        {
+          "i": 1,
+          "j": 14,
+          "rank": 17190,
+          "correct_score": 0.6228942685841775
+        },
+        {
+          "i": 2,
+          "j": 6,
+          "rank": 9060,
+          "correct_score": 1.0701821194445578
+        },
+        {
+          "i": 2,
+          "j": 13,
+          "rank": 9218,
+          "correct_score": 1.093852397156345
+        },
+        {
+          "i": 2,
+          "j": 15,
+          "rank": 18610,
+          "correct_score": 0.5699218480896926
+        },
+        {
+          "i": 3,
+          "j": 7,
+          "rank": 10557,
+          "correct_score": 0.982777254670204
+        },
+        {
+          "i": 3,
+          "j": 13,
+          "rank": 6486,
+          "correct_score": 1.3049792516510519
+        },
+        {
+          "i": 10,
+          "j": 13,
+          "rank": 8348,
+          "correct_score": 1.1444280964753473
+        },
+        {
+          "i": 11,
+          "j": 15,
+          "rank": 105,
+          "correct_score": 3.0221278327440473
+        }
+      ]
+    },
+    {
+      "method": "expanded",
+      "offset": 28,
+      "preprocessing": {
+        "selected_traces": 1038129,
+        "total_traces": 1048576,
+        "upper_quantile": 0.99,
+        "upper_threshold_cycles": 17120.0,
+        "transform": "log"
+      },
+      "summary": {
+        "pairs_tested": 12,
+        "hypotheses_per_pair": 65536,
+        "mean_correct_pair_rank": 6184.333333333333,
+        "median_correct_pair_rank": 1671.0,
+        "random_expected_mean_rank": 32768.5,
+        "mean_correct_pair_percentile": 0.9056483812720938,
+        "median_correct_pair_score": 1.973460512992708,
+        "positive_correct_pair_scores": 12,
+        "top1_pairs": 0,
+        "top10_pairs": 0,
+        "note": "Pair ranks are diagnostic; they are not the assignment's 16 key-byte ranks."
+      },
+      "pair_measurements": [
+        {
+          "i": 0,
+          "j": 1,
+          "rank": 15,
+          "correct_score": 3.583019732587781
+        },
+        {
+          "i": 0,
+          "j": 2,
+          "rank": 1031,
+          "correct_score": 2.151848161162998
+        },
+        {
+          "i": 0,
+          "j": 7,
+          "rank": 1065,
+          "correct_score": 2.126574002196581
+        },
+        {
+          "i": 1,
+          "j": 7,
+          "rank": 15,
+          "correct_score": 3.405593439765915
+        },
+        {
+          "i": 1,
+          "j": 14,
+          "rank": 23088,
+          "correct_score": 0.3690819997732887
+        },
+        {
+          "i": 2,
+          "j": 6,
+          "rank": 842,
+          "correct_score": 2.2178165916539596
+        },
+        {
+          "i": 2,
+          "j": 13,
+          "rank": 2498,
+          "correct_score": 1.8059970642159737
+        },
+        {
+          "i": 2,
+          "j": 15,
+          "rank": 26439,
+          "correct_score": 0.24599220130706567
+        },
+        {
+          "i": 3,
+          "j": 7,
+          "rank": 12302,
+          "correct_score": 0.8742478356709051
+        },
+        {
+          "i": 3,
+          "j": 13,
+          "rank": 2277,
+          "correct_score": 1.8203470237888353
+        },
+        {
+          "i": 10,
+          "j": 13,
+          "rank": 4580,
+          "correct_score": 1.4669981911281047
+        },
+        {
+          "i": 11,
+          "j": 15,
+          "rank": 60,
+          "correct_score": 3.14277805551165
+        }
+      ]
+    },
+    {
+      "method": "simple",
+      "offset": null,
+      "preprocessing": {
+        "selected_traces": 1048576,
+        "total_traces": 1048576,
+        "upper_quantile": 1.0,
+        "upper_threshold_cycles": 114356.0,
+        "transform": "rank"
+      },
+      "summary": {
+        "pairs_tested": 12,
+        "hypotheses_per_pair": 256,
+        "mean_correct_pair_rank": 5.25,
+        "median_correct_pair_rank": 1.0,
+        "random_expected_mean_rank": 128.5,
+        "mean_correct_pair_percentile": 0.9833333333333334,
+        "median_correct_pair_score": 3.904918350139785,
+        "positive_correct_pair_scores": 12,
+        "top1_pairs": 8,
+        "top10_pairs": 11,
+        "note": "Pair ranks are diagnostic; they are not the assignment's 16 key-byte ranks."
+      },
+      "pair_measurements": [
+        {
+          "i": 0,
+          "j": 1,
+          "rank": 1,
+          "correct_score": 4.326534548542258
+        },
+        {
+          "i": 0,
+          "j": 2,
+          "rank": 1,
+          "correct_score": 4.493298747387996
+        },
+        {
+          "i": 0,
+          "j": 7,
+          "rank": 1,
+          "correct_score": 5.0738276331946235
+        },
+        {
+          "i": 1,
+          "j": 7,
+          "rank": 1,
+          "correct_score": 5.940598257306163
+        },
+        {
+          "i": 1,
+          "j": 14,
+          "rank": 1,
+          "correct_score": 3.1315012475228814
+        },
+        {
+          "i": 2,
+          "j": 6,
+          "rank": 1,
+          "correct_score": 4.892208561792291
+        },
+        {
+          "i": 2,
+          "j": 13,
+          "rank": 9,
+          "correct_score": 2.008947056274282
+        },
+        {
+          "i": 2,
+          "j": 15,
+          "rank": 39,
+          "correct_score": 1.1688686448507168
+        },
+        {
+          "i": 3,
+          "j": 7,
+          "rank": 1,
+          "correct_score": 3.4833021517373117
+        },
+        {
+          "i": 3,
+          "j": 13,
+          "rank": 1,
+          "correct_score": 4.705565010851823
+        },
+        {
+          "i": 10,
+          "j": 13,
+          "rank": 4,
+          "correct_score": 2.3123816850762178
+        },
+        {
+          "i": 11,
+          "j": 15,
+          "rank": 3,
+          "correct_score": 2.4865301910504916
+        }
+      ]
+    },
+    {
+      "method": "expanded",
+      "offset": 0,
+      "preprocessing": {
+        "selected_traces": 1048576,
+        "total_traces": 1048576,
+        "upper_quantile": 1.0,
+        "upper_threshold_cycles": 114356.0,
+        "transform": "rank"
+      },
+      "summary": {
+        "pairs_tested": 12,
+        "hypotheses_per_pair": 65536,
+        "mean_correct_pair_rank": 1.0,
+        "median_correct_pair_rank": 1.0,
+        "random_expected_mean_rank": 32768.5,
+        "mean_correct_pair_percentile": 1.0,
+        "median_correct_pair_score": 11.104651079439641,
+        "positive_correct_pair_scores": 12,
+        "top1_pairs": 12,
+        "top10_pairs": 12,
+        "note": "Pair ranks are diagnostic; they are not the assignment's 16 key-byte ranks."
+      },
+      "pair_measurements": [
+        {
+          "i": 0,
+          "j": 1,
+          "rank": 1,
+          "correct_score": 12.918009366585691
+        },
+        {
+          "i": 0,
+          "j": 2,
+          "rank": 1,
+          "correct_score": 11.09172016370685
+        },
+        {
+          "i": 0,
+          "j": 7,
+          "rank": 1,
+          "correct_score": 13.904848301608224
+        },
+        {
+          "i": 1,
+          "j": 7,
+          "rank": 1,
+          "correct_score": 14.39541329684055
+        },
+        {
+          "i": 1,
+          "j": 14,
+          "rank": 1,
+          "correct_score": 8.892533103491607
+        },
+        {
+          "i": 2,
+          "j": 6,
+          "rank": 1,
+          "correct_score": 10.732115922202667
+        },
+        {
+          "i": 2,
+          "j": 13,
+          "rank": 1,
+          "correct_score": 10.446957111105322
+        },
+        {
+          "i": 2,
+          "j": 15,
+          "rank": 1,
+          "correct_score": 8.724915395379274
+        },
+        {
+          "i": 3,
+          "j": 7,
+          "rank": 1,
+          "correct_score": 13.104096974993553
+        },
+        {
+          "i": 3,
+          "j": 13,
+          "rank": 1,
+          "correct_score": 11.117581995172435
+        },
+        {
+          "i": 10,
+          "j": 13,
+          "rank": 1,
+          "correct_score": 11.047954641924964
+        },
+        {
+          "i": 11,
+          "j": 15,
+          "rank": 1,
+          "correct_score": 11.967813377738233
+        }
+      ]
+    },
+    {
+      "method": "expanded",
+      "offset": 4,
+      "preprocessing": {
+        "selected_traces": 1048576,
+        "total_traces": 1048576,
+        "upper_quantile": 1.0,
+        "upper_threshold_cycles": 114356.0,
+        "transform": "rank"
+      },
+      "summary": {
+        "pairs_tested": 12,
+        "hypotheses_per_pair": 65536,
+        "mean_correct_pair_rank": 1.0,
+        "median_correct_pair_rank": 1.0,
+        "random_expected_mean_rank": 32768.5,
+        "mean_correct_pair_percentile": 1.0,
+        "median_correct_pair_score": 8.994799928173707,
+        "positive_correct_pair_scores": 12,
+        "top1_pairs": 12,
+        "top10_pairs": 12,
+        "note": "Pair ranks are diagnostic; they are not the assignment's 16 key-byte ranks."
+      },
+      "pair_measurements": [
+        {
+          "i": 0,
+          "j": 1,
+          "rank": 1,
+          "correct_score": 10.364768887556696
+        },
+        {
+          "i": 0,
+          "j": 2,
+          "rank": 1,
+          "correct_score": 8.949045393849282
+        },
+        {
+          "i": 0,
+          "j": 7,
+          "rank": 1,
+          "correct_score": 11.066101390525379
+        },
+        {
+          "i": 1,
+          "j": 7,
+          "rank": 1,
+          "correct_score": 10.72611463413926
+        },
+        {
+          "i": 1,
+          "j": 14,
+          "rank": 1,
+          "correct_score": 6.762511116165532
+        },
+        {
+          "i": 2,
+          "j": 6,
+          "rank": 1,
+          "correct_score": 9.180888098694522
+        },
+        {
+          "i": 2,
+          "j": 13,
+          "rank": 1,
+          "correct_score": 7.415752844660512
+        },
+        {
+          "i": 2,
+          "j": 15,
+          "rank": 1,
+          "correct_score": 6.123721892649112
+        },
+        {
+          "i": 3,
+          "j": 7,
+          "rank": 1,
+          "correct_score": 10.65786893488278
+        },
+        {
+          "i": 3,
+          "j": 13,
+          "rank": 1,
+          "correct_score": 9.040554462498132
+        },
+        {
+          "i": 10,
+          "j": 13,
+          "rank": 1,
+          "correct_score": 8.20274069225741
+        },
+        {
+          "i": 11,
+          "j": 15,
+          "rank": 1,
+          "correct_score": 8.695836899861815
+        }
+      ]
+    },
+    {
+      "method": "expanded",
+      "offset": 8,
+      "preprocessing": {
+        "selected_traces": 1048576,
+        "total_traces": 1048576,
+        "upper_quantile": 1.0,
+        "upper_threshold_cycles": 114356.0,
+        "transform": "rank"
+      },
+      "summary": {
+        "pairs_tested": 12,
+        "hypotheses_per_pair": 65536,
+        "mean_correct_pair_rank": 1.25,
+        "median_correct_pair_rank": 1.0,
+        "random_expected_mean_rank": 32768.5,
+        "mean_correct_pair_percentile": 0.9999961852445258,
+        "median_correct_pair_score": 7.4555212940471645,
+        "positive_correct_pair_scores": 12,
+        "top1_pairs": 11,
+        "top10_pairs": 12,
+        "note": "Pair ranks are diagnostic; they are not the assignment's 16 key-byte ranks."
+      },
+      "pair_measurements": [
+        {
+          "i": 0,
+          "j": 1,
+          "rank": 1,
+          "correct_score": 8.31828160300067
+        },
+        {
+          "i": 0,
+          "j": 2,
+          "rank": 1,
+          "correct_score": 7.761180637901966
+        },
+        {
+          "i": 0,
+          "j": 7,
+          "rank": 1,
+          "correct_score": 8.565110536293373
+        },
+        {
+          "i": 1,
+          "j": 7,
+          "rank": 1,
+          "correct_score": 8.600305771253268
+        },
+        {
+          "i": 1,
+          "j": 14,
+          "rank": 1,
+          "correct_score": 4.938613531996947
+        },
+        {
+          "i": 2,
+          "j": 6,
+          "rank": 1,
+          "correct_score": 7.155616643447733
+        },
+        {
+          "i": 2,
+          "j": 13,
+          "rank": 1,
+          "correct_score": 6.2030046809479344
+        },
+        {
+          "i": 2,
+          "j": 15,
+          "rank": 4,
+          "correct_score": 3.8328636829669667
+        },
+        {
+          "i": 3,
+          "j": 7,
+          "rank": 1,
+          "correct_score": 8.019114747230427
+        },
+        {
+          "i": 3,
+          "j": 13,
+          "rank": 1,
+          "correct_score": 7.755425944646597
+        },
+        {
+          "i": 10,
+          "j": 13,
+          "rank": 1,
+          "correct_score": 5.983877218346287
+        },
+        {
+          "i": 11,
+          "j": 15,
+          "rank": 1,
+          "correct_score": 7.0049743714569646
+        }
+      ]
+    },
+    {
+      "method": "expanded",
+      "offset": 12,
+      "preprocessing": {
+        "selected_traces": 1048576,
+        "total_traces": 1048576,
+        "upper_quantile": 1.0,
+        "upper_threshold_cycles": 114356.0,
+        "transform": "rank"
+      },
+      "summary": {
+        "pairs_tested": 12,
+        "hypotheses_per_pair": 65536,
+        "mean_correct_pair_rank": 27.416666666666668,
+        "median_correct_pair_rank": 1.0,
+        "random_expected_mean_rank": 32768.5,
+        "mean_correct_pair_percentile": 0.9995969075048956,
+        "median_correct_pair_score": 6.3666253534391295,
+        "positive_correct_pair_scores": 12,
+        "top1_pairs": 10,
+        "top10_pairs": 10,
+        "note": "Pair ranks are diagnostic; they are not the assignment's 16 key-byte ranks."
+      },
+      "pair_measurements": [
+        {
+          "i": 0,
+          "j": 1,
+          "rank": 1,
+          "correct_score": 7.695876434445865
+        },
+        {
+          "i": 0,
+          "j": 2,
+          "rank": 1,
+          "correct_score": 6.427032410717036
+        },
+        {
+          "i": 0,
+          "j": 7,
+          "rank": 1,
+          "correct_score": 7.891480617310497
+        },
+        {
+          "i": 1,
+          "j": 7,
+          "rank": 1,
+          "correct_score": 7.215786091529091
+        },
+        {
+          "i": 1,
+          "j": 14,
+          "rank": 290,
+          "correct_score": 2.562322632332448
+        },
+        {
+          "i": 2,
+          "j": 6,
+          "rank": 1,
+          "correct_score": 6.306218296161223
+        },
+        {
+          "i": 2,
+          "j": 13,
+          "rank": 1,
+          "correct_score": 6.053422838729714
+        },
+        {
+          "i": 2,
+          "j": 15,
+          "rank": 29,
+          "correct_score": 3.4398528583156174
+        },
+        {
+          "i": 3,
+          "j": 7,
+          "rank": 1,
+          "correct_score": 6.963570505779759
+        },
+        {
+          "i": 3,
+          "j": 13,
+          "rank": 1,
+          "correct_score": 6.471388374198054
+        },
+        {
+          "i": 10,
+          "j": 13,
+          "rank": 1,
+          "correct_score": 4.715945301243897
+        },
+        {
+          "i": 11,
+          "j": 15,
+          "rank": 1,
+          "correct_score": 5.83615474822008
+        }
+      ]
+    },
+    {
+      "method": "expanded",
+      "offset": 16,
+      "preprocessing": {
+        "selected_traces": 1048576,
+        "total_traces": 1048576,
+        "upper_quantile": 1.0,
+        "upper_threshold_cycles": 114356.0,
+        "transform": "rank"
+      },
+      "summary": {
+        "pairs_tested": 12,
+        "hypotheses_per_pair": 65536,
+        "mean_correct_pair_rank": 16.583333333333332,
+        "median_correct_pair_rank": 1.0,
+        "random_expected_mean_rank": 32768.5,
+        "mean_correct_pair_percentile": 0.9997622135754431,
+        "median_correct_pair_score": 6.342169003730974,
+        "positive_correct_pair_scores": 12,
+        "top1_pairs": 9,
+        "top10_pairs": 10,
+        "note": "Pair ranks are diagnostic; they are not the assignment's 16 key-byte ranks."
+      },
+      "pair_measurements": [
+        {
+          "i": 0,
+          "j": 1,
+          "rank": 1,
+          "correct_score": 7.577103056173913
+        },
+        {
+          "i": 0,
+          "j": 2,
+          "rank": 1,
+          "correct_score": 6.872676439759434
+        },
+        {
+          "i": 0,
+          "j": 7,
+          "rank": 1,
+          "correct_score": 8.238520127213997
+        },
+        {
+          "i": 1,
+          "j": 7,
+          "rank": 1,
+          "correct_score": 6.558448818473103
+        },
+        {
+          "i": 1,
+          "j": 14,
+          "rank": 40,
+          "correct_score": 3.0873555220177775
+        },
+        {
+          "i": 2,
+          "j": 6,
+          "rank": 1,
+          "correct_score": 6.125889188988845
+        },
+        {
+          "i": 2,
+          "j": 13,
+          "rank": 1,
+          "correct_score": 4.751961711330099
+        },
+        {
+          "i": 2,
+          "j": 15,
+          "rank": 148,
+          "correct_score": 2.824023140668258
+        },
+        {
+          "i": 3,
+          "j": 7,
+          "rank": 1,
+          "correct_score": 6.982532632158651
+        },
+        {
+          "i": 3,
+          "j": 13,
+          "rank": 1,
+          "correct_score": 5.171226832196845
+        },
+        {
+          "i": 10,
+          "j": 13,
+          "rank": 2,
+          "correct_score": 4.569385817534981
+        },
+        {
+          "i": 11,
+          "j": 15,
+          "rank": 1,
+          "correct_score": 7.512917882611203
+        }
+      ]
+    },
+    {
+      "method": "expanded",
+      "offset": 20,
+      "preprocessing": {
+        "selected_traces": 1048576,
+        "total_traces": 1048576,
+        "upper_quantile": 1.0,
+        "upper_threshold_cycles": 114356.0,
+        "transform": "rank"
+      },
+      "summary": {
+        "pairs_tested": 12,
+        "hypotheses_per_pair": 65536,
+        "mean_correct_pair_rank": 2.25,
+        "median_correct_pair_rank": 1.0,
+        "random_expected_mean_rank": 32768.5,
+        "mean_correct_pair_percentile": 0.9999809262226291,
+        "median_correct_pair_score": 6.183075661755179,
+        "positive_correct_pair_scores": 12,
+        "top1_pairs": 11,
+        "top10_pairs": 11,
+        "note": "Pair ranks are diagnostic; they are not the assignment's 16 key-byte ranks."
+      },
+      "pair_measurements": [
+        {
+          "i": 0,
+          "j": 1,
+          "rank": 1,
+          "correct_score": 7.706952653956693
+        },
+        {
+          "i": 0,
+          "j": 2,
+          "rank": 1,
+          "correct_score": 6.166143656815954
+        },
+        {
+          "i": 0,
+          "j": 7,
+          "rank": 1,
+          "correct_score": 6.814795094341186
+        },
+        {
+          "i": 1,
+          "j": 7,
+          "rank": 1,
+          "correct_score": 6.534521836916465
+        },
+        {
+          "i": 1,
+          "j": 14,
+          "rank": 1,
+          "correct_score": 4.859676893453589
+        },
+        {
+          "i": 2,
+          "j": 6,
+          "rank": 1,
+          "correct_score": 5.212979705084648
+        },
+        {
+          "i": 2,
+          "j": 13,
+          "rank": 1,
+          "correct_score": 5.1823061536589226
+        },
+        {
+          "i": 2,
+          "j": 15,
+          "rank": 16,
+          "correct_score": 3.5455660994527047
+        },
+        {
+          "i": 3,
+          "j": 7,
+          "rank": 1,
+          "correct_score": 6.881887201689229
+        },
+        {
+          "i": 3,
+          "j": 13,
+          "rank": 1,
+          "correct_score": 6.200007666694405
+        },
+        {
+          "i": 10,
+          "j": 13,
+          "rank": 1,
+          "correct_score": 4.93634840625492
+        },
+        {
+          "i": 11,
+          "j": 15,
+          "rank": 1,
+          "correct_score": 8.45154094467754
+        }
+      ]
+    },
+    {
+      "method": "expanded",
+      "offset": 24,
+      "preprocessing": {
+        "selected_traces": 1048576,
+        "total_traces": 1048576,
+        "upper_quantile": 1.0,
+        "upper_threshold_cycles": 114356.0,
+        "transform": "rank"
+      },
+      "summary": {
+        "pairs_tested": 12,
+        "hypotheses_per_pair": 65536,
+        "mean_correct_pair_rank": 1.0,
+        "median_correct_pair_rank": 1.0,
+        "random_expected_mean_rank": 32768.5,
+        "mean_correct_pair_percentile": 1.0,
+        "median_correct_pair_score": 7.306669908895509,
+        "positive_correct_pair_scores": 12,
+        "top1_pairs": 12,
+        "top10_pairs": 12,
+        "note": "Pair ranks are diagnostic; they are not the assignment's 16 key-byte ranks."
+      },
+      "pair_measurements": [
+        {
+          "i": 0,
+          "j": 1,
+          "rank": 1,
+          "correct_score": 9.00242772025347
+        },
+        {
+          "i": 0,
+          "j": 2,
+          "rank": 1,
+          "correct_score": 7.879710215619422
+        },
+        {
+          "i": 0,
+          "j": 7,
+          "rank": 1,
+          "correct_score": 8.12787449349262
+        },
+        {
+          "i": 1,
+          "j": 7,
+          "rank": 1,
+          "correct_score": 8.977536533079896
+        },
+        {
+          "i": 1,
+          "j": 14,
+          "rank": 1,
+          "correct_score": 5.784752114745157
+        },
+        {
+          "i": 2,
+          "j": 6,
+          "rank": 1,
+          "correct_score": 6.118862559826081
+        },
+        {
+          "i": 2,
+          "j": 13,
+          "rank": 1,
+          "correct_score": 5.285609860478869
+        },
+        {
+          "i": 2,
+          "j": 15,
+          "rank": 1,
+          "correct_score": 5.833338027935847
+        },
+        {
+          "i": 3,
+          "j": 7,
+          "rank": 1,
+          "correct_score": 7.288263114920711
+        },
+        {
+          "i": 3,
+          "j": 13,
+          "rank": 1,
+          "correct_score": 7.325076702870309
+        },
+        {
+          "i": 10,
+          "j": 13,
+          "rank": 1,
+          "correct_score": 6.561842114740447
+        },
+        {
+          "i": 11,
+          "j": 15,
+          "rank": 1,
+          "correct_score": 8.933411095323123
+        }
+      ]
+    },
+    {
+      "method": "expanded",
+      "offset": 28,
+      "preprocessing": {
+        "selected_traces": 1048576,
+        "total_traces": 1048576,
+        "upper_quantile": 1.0,
+        "upper_threshold_cycles": 114356.0,
+        "transform": "rank"
+      },
+      "summary": {
+        "pairs_tested": 12,
+        "hypotheses_per_pair": 65536,
+        "mean_correct_pair_rank": 1.0,
+        "median_correct_pair_rank": 1.0,
+        "random_expected_mean_rank": 32768.5,
+        "mean_correct_pair_percentile": 1.0,
+        "median_correct_pair_score": 8.823436848945633,
+        "positive_correct_pair_scores": 12,
+        "top1_pairs": 12,
+        "top10_pairs": 12,
+        "note": "Pair ranks are diagnostic; they are not the assignment's 16 key-byte ranks."
+      },
+      "pair_measurements": [
+        {
+          "i": 0,
+          "j": 1,
+          "rank": 1,
+          "correct_score": 10.695159515006104
+        },
+        {
+          "i": 0,
+          "j": 2,
+          "rank": 1,
+          "correct_score": 9.181244540845242
+        },
+        {
+          "i": 0,
+          "j": 7,
+          "rank": 1,
+          "correct_score": 10.40172592170118
+        },
+        {
+          "i": 1,
+          "j": 7,
+          "rank": 1,
+          "correct_score": 10.927626331522482
+        },
+        {
+          "i": 1,
+          "j": 14,
+          "rank": 1,
+          "correct_score": 6.718187371698115
+        },
+        {
+          "i": 2,
+          "j": 6,
+          "rank": 1,
+          "correct_score": 8.365805470346485
+        },
+        {
+          "i": 2,
+          "j": 13,
+          "rank": 1,
+          "correct_score": 7.548895002287631
+        },
+        {
+          "i": 2,
+          "j": 15,
+          "rank": 1,
+          "correct_score": 6.891227407502804
+        },
+        {
+          "i": 3,
+          "j": 7,
+          "rank": 1,
+          "correct_score": 8.700886943713222
+        },
+        {
+          "i": 3,
+          "j": 13,
+          "rank": 1,
+          "correct_score": 8.945986754178042
+        },
+        {
+          "i": 10,
+          "j": 13,
+          "rank": 1,
+          "correct_score": 8.07922740188966
+        },
+        {
+          "i": 11,
+          "j": 15,
+          "rank": 1,
+          "correct_score": 10.268185335224928
+        }
+      ]
+    }
+  ],
+  "interpretation": [
+    "Mean correct-pair percentile near 0.5 is approximately random; nearer 1 is better.",
+    "Positive signed scores mean predicted collisions were faster; negative scores mean slower.",
+    "Pairs share traces and bytes; these measurements are correlated, not independent significance tests.",
+    "A strong pair diagnostic does not guarantee full-key recovery.",
+    "Select settings on t00, then confirm them on t01 before using them on the blind dataset.",
+    "More heuristic restarts address search limitations, not absent or mismodeled timing leakage."
+  ]
+}

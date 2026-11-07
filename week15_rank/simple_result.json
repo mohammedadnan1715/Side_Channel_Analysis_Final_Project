@@ -1,0 +1,28 @@
+{
+  "status": "recovered",
+  "master_key_hex": "7ca80f7f9263ce8d3f5e91ef746e14ee",
+  "round10_key_hex": "fd3d727ebc2eadd4eb7c196e2cbb6105",
+  "candidate_keys_tested": 254,
+  "verification_pairs": 1048576,
+  "method": "simple",
+  "dataset": "t15_blind.tar.gz",
+  "dataset_sha256": "c571733f76463d5dda436dcaf87cc170018eff7571c3e84f7614ecafa8561849",
+  "preprocessing": {
+    "selected_traces": 1048576,
+    "total_traces": 1048576,
+    "upper_quantile": 1.0,
+    "upper_threshold_cycles": 132920.0,
+    "transform": "rank"
+  },
+  "statistic": "welch",
+  "table_offset": null,
+  "restarts": 128,
+  "sweeps": 40,
+  "seed": 622,
+  "retained_search_states": 64,
+  "rankings_file": "simple_rankings.csv",
+  "ranking_note": "Approximate max-profile support over searched contexts; ties ordered by byte value. These are not original/master-key byte rankings.",
+  "best_search_state_hex": "00c08f8341d350291681e493d1469cf8",
+  "best_score": 452.4566373825073,
+  "elapsed_seconds": 3.281
+}

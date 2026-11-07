@@ -1,0 +1,51 @@
+{
+  "status": "recovered",
+  "master_key_hex": "2058e696f89b29a05e08e3cf7880bbee",
+  "round10_key_hex": "18e9e9a61cd3352f279ce348497c870c",
+  "candidate_keys_tested": 1,
+  "verification_pairs": 1048576,
+  "method": "expanded",
+  "dataset": "t01.tar.gz",
+  "dataset_sha256": "255737471d471f3d2a8990dd66816bb19a820eadc184a6d50320735082fa1ea2",
+  "preprocessing": {
+    "selected_traces": 1048576,
+    "total_traces": 1048576,
+    "upper_quantile": 1.0,
+    "upper_threshold_cycles": 125476.0,
+    "transform": "rank"
+  },
+  "statistic": "welch",
+  "table_offset": 0,
+  "restarts": 128,
+  "sweeps": 40,
+  "seed": 622,
+  "retained_search_states": 64,
+  "rankings_file": "expanded_rankings.csv",
+  "ranking_note": "Approximate max-profile support over searched contexts; ties ordered by byte value. These are not original/master-key byte rankings.",
+  "best_search_state_hex": "18e9e9a61cd3352f279ce348497c870c",
+  "best_score": 1288.7778396606445,
+  "evaluation": {
+    "master_key_matches": true,
+    "reference": "round10_byte",
+    "correct_value_ranks": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "mean_rank": 1.0
+  },
+  "elapsed_seconds": 4.813
+}
